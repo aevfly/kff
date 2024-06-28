@@ -1,7 +1,0 @@
-AuthType Basic
-AuthName "/www/kievfilmfestival.com/webstat"
-AuthUserFile /var/www/aev_fly3/data/etc/81929502.passwd
-DirectoryIndex index.html
-<Limit GET POST>
-	require valid-user
-</Limit>
