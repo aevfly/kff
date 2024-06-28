@@ -1,0 +1,2456 @@
+AWSTATS DATA FILE 7.0 (build 1.971)
+# If you remove this file, all statistics for date 201811 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.kievfilmfestival.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 2000                
+POS_TIME 2682                
+POS_VISITOR 36037               
+POS_DAY 82782               
+POS_DOMAIN 3642                
+POS_LOGIN 3876                
+POS_ROBOT 4062                
+POS_WORMS 5007                
+POS_EMAILSENDER 5138                
+POS_EMAILRECEIVER 5281                
+POS_SESSION 83699               
+POS_SIDER 83912               
+POS_FILETYPES 5416                
+POS_DOWNLOADS 5754                
+POS_OS 5855                
+POS_BROWSER 6087                
+POS_SCREENSIZE 10830               
+POS_UNKNOWNREFERER 10904               
+POS_UNKNOWNREFERERBROWSER 12108               
+POS_ORIGIN 12700               
+POS_SEREFERRALS 12845               
+POS_PAGEREFS 13019               
+POS_SEARCHWORDS 15462               
+POS_KEYWORDS 15614               
+POS_MISC 2346                
+POS_ERRORS 15673               
+POS_CLUSTER 3732                
+POS_SIDER_404 15829               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20181201000142 348 70876 11281081409350
+FirstTime 20181101001251
+LastTime 20181130235834
+LastUpdate 20181201042040 348 0 347 0 0
+TotalVisits 3909                
+TotalUnique 1111                
+MonthHostsKnown 0                   
+MonthHostsUnknown 1218                
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 270 325 4960434 259 354 6858551
+1 237 354 7306507 458 550 5689064
+2 234 261 3759485 249 320 3740099
+3 212 242 4047615 312 389 6145879
+4 191 323 6138219 164 224 1497851
+5 224 249 2866302 270 327 3927934
+6 220 230 2872222 283 372 3141448
+7 249 315 3843615 438 505 5000692
+8 243 269 3439940 174 275 8268762
+9 220 249 3822492 368 457 7304680
+10 222 245 2927102 310 366 2415256
+11 229 231 2459576 264 330 2444232
+12 813 865 8893223 796 865 4865773
+13 201 231 3558464 468 527 4339800
+14 236 305 3683186 280 365 5698155
+15 246 361 5659267 235 276 2081074
+16 240 357 5559639 196 272 5570238
+17 475 607 8144843 424 530 3650886
+18 271 465 10091913 246 323 10042398
+19 255 417 9073160 292 373 4221797
+20 312 794 14350869 224 287 3484940
+21 276 312 4918212 427 473 6236035
+22 295 299 3612185 185 246 3324956
+23 237 260 2958707 211 288 4494899
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 6608 8566 128944813
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 1
+admin 2 2 27607 20181123154456
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 22
+googlebot 1104 5124215 20181130201226 49
+bot[\s_+:,\.\;\/\\-] 609 4406966 20181130170225 205
+robot 444 2647109 20181130001512 51
+yandex 282 2702431 20181130203842 125
+seznambot 274 39192405 20181130223433 123
+python 263 1175018 20181130083525 0
+no_user_agent 242 5463240 20181130134423 9
+crawl 104 642481 20181130170526 14
+unknown 76 104898 20181129180239 76
+baiduspider 72 836712 20181130160513 0
+exabot 26 111345 20181130234509 10
+libwww 5 108675 20181125183937 0
+java\/[0-9] 4 69528 20181125203847 2
+vagabondo 2 25067 20181122080316 1
+mail\.ru 42 152812 20181129164015 20
+phantom 38 593744 20181117004354 0
+facebook 25 9814196 20181127061811 0
+custo 2 43470 20181124170725 0
+scanner 1 21735 20181117142916 0
+wget 3 65205 20181129172325 0
+msiecrawler 3 66084 20181124143616 0
+netcraft 4 66930 20181102041006 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 14
+eot 2 76410 0 0
+css 1235 5853637 0 0
+png 127 1472137 0 0
+ttf 3 241956 0 0
+woff 42 1866144 0 0
+txt 61 6855897 0 0
+otf 67 7143540 0 0
+php 827 6169231 0 0
+html 4852 46172515 0 0
+jpg 301 30289866 0 0
+xml 8 136752 0 0
+js 226 13341480 0 0
+Unknown 807 9303112 0 0
+gif 8 22136 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 2
+/robots.txt 685 2 991441
+/CHANGELOG.txt 61 0 6853533
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS 17
+linuxsuse 1
+linuxandroid 573
+winlong 32
+winxp 116
+win2000 13
+winvista 154
+winunknown 6
+win2003 8
+wince 3
+winnt 1694
+win98 1
+linuxubuntu 6
+linux 1290
+win7 2212
+win16 5
+macosx 1430
+Unknown 1024
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 238
+webcapture 3
+chrome55.0.6761.92 1
+chrome52.0.2743.116 610
+chrome12.0.742.100 2
+chrome69.0.3497.81 2
+chrome58.0.8136.433 24
+chrome53.0.9115.660 24
+firefox49.0 4
+safari9.1.2 114
+chrome55.0.5196.878 1
+chrome56.0.5832.657 1
+chrome56.0.7326.294 1
+firefox2.0.0.13 2
+msie8.0 16
+chrome39.0.8166.941 24
+msie7.0 27
+chrome58.0.6833.582 24
+chrome52.0.2744.20 2
+chrome49.0.2658.3 2
+firefox45.63.00 1
+chrome51.0.2734.59 2
+firefox9.0.1 15
+chrome42.0.2311.152 2
+chrome68.0.3440.7 1
+chrome48.0.4142.547 1
+firefox50.0 4
+chrome49.0.2635.3 2
+chrome52.0.7292.910 1
+chrome55.0.7581.969 24
+chrome51.0.3687.780 1
+chrome59.0.8250.948 1
+chrome51.0.1574.205 24
+chrome62.0.3202.94 1
+firefox38.0 1
+chrome56.0.7917.146 1
+chrome53.0.9660.609 24
+chrome57.0.9176.723 24
+chrome51.0.2704.103 239
+firefox33.0 2
+chrome41.0.1430.695 1
+netscape5.0 36
+chrome54.0.6834.921 24
+chrome51.0.1961.818 1
+chrome43.0.7123.73 1
+chrome45.0.6802.853 1
+chrome50.0.9101.475 1
+chrome41.0.2228.0 6
+chrome39.0.7647.693 1
+chrome60.0.2417.375 1
+safari 673
+chrome47.0.1963.992 24
+chrome67.0.3396.87 72
+safari7.0 81
+firefox5.0 4
+safari11.0 2
+firefox4.0.1 2
+chrome67.0.2526.73 2
+android 1
+firefox52.0 3
+chrome67.0.3396.79 678
+chrome23.0.1271.6 1
+chrome57.0.7573.600 1
+chrome36.0.1985.125 1
+chrome44.0.4200.505 1
+chrome44.0.7089.332 1
+firefox63.0 139
+chrome52.0.3221.366 1
+chrome39.0.0.0 2
+chrome54.0.2847.40 2
+chrome61.0.3163.100 14
+chrome42.0.6632.207 1
+netscape0.91 3
+chrome44.0.9224.542 1
+chrome34.0.1847.116 8
+chrome53.0.2785.116 235
+chrome58.0.3029.96 1
+chrome48.0.6538.175 1
+msie5.0 12
+msie9.0 47
+chrome41.0.3091.656 1
+chrome43.0.9075.17 1
+chrome14.0.835.202 1
+chrome55.0.2917.77 2
+chrome59.0.3071.115 2
+safari5.1.3 3
+chrome11.0.696.68 1
+chrome55.0.2928.70 1
+chrome52.0.1473.245 1
+chrome45.0.3980.85 1
+chrome54.0.3224.133 1
+chrome53.0.2785.143 212
+firefox3.6.16 1
+msie5.5 8
+chrome43.0.2357.132 3
+firefox61.0 2
+chrome45.0.2454.94 2
+chrome35.0.1916.153 1
+chrome51.0.2704.106 687
+chrome44.0.6292.501 1
+firefox3.6.18 5
+chrome42.0.1421.919 1
+firefox51.0 4
+chrome35.0.2309.372 1
+chrome43.0.6161.45 1
+firefox 1
+chrome66.0.3359.170 5
+chrome14.0.835.187 2
+chrome53.0.3777.670 1
+chrome67.0.3396.62 1
+firefox3.6.8 4
+chrome64.0.3282.140 138
+msie6.0 60
+firefox57.0 35
+chrome59.0.9519.469 1
+chrome27.0.1453.94 1
+chrome59.0.9837.568 1
+chrome52.0.2760.78 2
+chrome42.0.2600.198 1
+chrome51.0.6861.543 24
+msie4.01 2
+firefox18.0 7
+chrome44.0.8075.175 1
+chrome59.0.3167.560 1
+curl 6
+chrome51.0.2717.34 2
+chrome58.0.3029.110 218
+chrome51.0.9099.862 1
+chrome58.0.3097.61 1
+chrome42.0.2311.90 1
+opera7.60 1
+chrome39.0.4184.925 1
+netscape3.0 3
+chrome47.0.5718.625 1
+firefox59.0 1
+chrome58.0.7005.414 1
+firefox3.6.1 1
+chrome60.0.3112.101 3
+chrome50.0.2661.102 3
+chrome56.0.4481.875 1
+chrome60.0.8195.764 1
+chrome60.0.3637.506 1
+chrome70.0.3538.102 174
+chrome66.0.3359.181 1
+chrome56.0.6426.773 1
+chrome50.0.8270.279 1
+chrome62.0.3198.0 464
+safari7.0.2 1
+chrome43.0.4204.524 24
+netscape 21
+chrome65.0.3325.181 4
+chrome48.0.2341.800 24
+chrome42.0.2088.185 24
+firefox48.0 34
+firefox53.0 1
+firefox42.0 687
+chrome10.0.648.133 3
+chrome34.0.1847.131 5
+firefox3.0 8
+chrome57.0.3964.794 24
+chrome44.0.8207.917 1
+chrome40.0.1939.112 1
+chrome52.0.8870.394 1
+chrome63.0.3239.132 3
+chrome54.0.2416.495 24
+chrome52.0.2784.44 2
+firefox2.0.0.6 3
+chrome52.0.8573.631 1
+chrome49.0.2623.75 4
+firefox3.6.23 1
+firefox45.0 20
+firefox47.0 22
+chrome46.0.2490.80 1
+chrome39.0.7179.814 1
+chrome50.0.1737.441 1
+chrome43.0.6110.510 1
+chrome55.0.1708.607 1
+mozilla 139
+chrome57.0.2987.133 4
+chrome46.0.9019.95 1
+chrome42.0.6349.35 1
+chrome10.0.648.151 1
+firefox60.0 544
+chrome47.0.4083.229 1
+netscape4.0 183
+chrome26.0.1410.63 43
+chrome54.0.2996.316 1
+chrome42.0.5993.365 1
+firefox35.0 3
+chrome53.0.6591.382 1
+chrome21.0.1180.89 7
+chrome39.0.5426.991 1
+chrome41.0.8969.756 1
+chrome54.0.2398.881 1
+chrome66.0.3359.139 2
+chrome12.0.742.91 1
+chrome48.0.1180.772 24
+firefox2.0.0.10 3
+chrome38.0.2125.101 24
+msie3.02 3
+chrome59.0.9909.818 1
+chrome40.0.1870.206 24
+chrome52.0.4371.562 1
+chrome51.0.2731.56 2
+firefox31.0 8
+chrome58.0.4053.450 1
+chrome43.0.9656.738 1
+chrome51.0.1202.541 1
+Unknown 729
+chrome47.0.2526.83 45
+chrome56.0.2963.38 2
+chrome41.0.7641.864 24
+chrome47.0.5677.631 1
+chrome47.0.6943.462 1
+chrome47.0.7558.846 1
+chrome49.0.6197.811 1
+chrome70.0.3538.77 172
+chrome39.0.6068.115 1
+safari10.0 3
+chrome51.0.9500.39 1
+firefox58.0 5
+chrome60.0.6625.965 1
+chrome45.0.2454.46 8
+chrome20.0.1132.57 1
+firefox46.0 35
+chrome59.0.2368.626 1
+chrome67.0.3396.99 1
+chrome45.0.2454.101 3
+chrome52.0.2744.47 2
+msie10.0 34
+chrome57.0.1038.137 24
+safari5.1 1
+chrome41.0.1526.772 24
+chrome43.0.4770.406 1
+chrome45.0.6546.730 1
+chrome59.0.7893.333 1
+chrome53.0.8195.628 1
+chrome55.0.3167.995 1
+firefox3.6.13 3
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 24
+\ 20181129080642
+Ruby 20181128124009
+Ver._5.9_x64 20181112174633
+masscan/1.0_(https://github.com/robertdavidgraham/masscan) 20181119200427
+curl/7.43.0 20181127172519
+Mozilla_5.0 20181122220131
+Mozilla/5.0_(compatible;_CloudFlare-AlwaysOnline/1.0;__http://www.cloudflare.com/always-online) 20181126100710
+Mozilla/5.0_zgrab/0.x 20181129220313
+Blackboard_Safeassign 20181121173044
+Twisted_PageGetter 20181118153951
+Mozilla/5.0_(compatible;_Dataprovider.com) 20181121220753
+Cloud_mapping_experiment._Contact_research@pdrlabs.net 20181124122941
+The_Knowledge_AI 20181129180739
+Mozilla 20181119215155
+Mozilla/5.0_(SIMON_SMITH_NT_10.0;_WOW64;_forensic@evestigator.com.au)_AppleWebKit/537.36_(KHTML,_like_Gecko)_Chrome/67.0.2526.73_Safari/537.36 20181124113534
+Foo 20181122133345
+HTTP_Banner_Detection_(https://security.ipip.net) 20181130223403
+Mozilla/4.0 20181118052002
+Mozilla/5.0 20181128153902
+Scrapy/1.5.1_(_https://scrapy.org) 20181110034220
+drupalgeddon2 20181130231603
+Go-http-client/1.1 20181129221424
+Mozilla/5.0_(compatible;_Qwantify/2.4w;__https://www.qwant.com/)/2.4w 20181128024014
+curl/7.60.0 20181116230920
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 13
+\ 20181129080642
+Ruby 20181128124009
+Ver._5.9_x64 20181112174633
+masscan/1.0_(https://github.com/robertdavidgraham/masscan) 20181119200427
+Foo 20181122133345
+HTTP_Banner_Detection_(https://security.ipip.net) 20181130223403
+Scrapy/1.5.1_(_https://scrapy.org) 20181110034220
+drupalgeddon2 20181130231603
+Go-http-client/1.1 20181129221424
+Blackboard_Safeassign 20181121173044
+Twisted_PageGetter 20181118153951
+Cloud_mapping_experiment._Contact_research@pdrlabs.net 20181124122941
+The_Knowledge_AI 20181129180739
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 5603 6384
+From1 4 4
+From2 5 5
+From3 206 856
+From4 790 1319
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 3
+google 2 2
+aol 1 1
+yandex 2 2
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 61
+http://en.kievfilmfestival.com/sites/all/themes/venture_theme/style.css 42 56
+http://en.kievfilmfestival.com 16 256
+https://uptime.com/kievfilmfestival.com 13 13
+http://91.234.32.19 8 86
+http://magnetic-bracelets.ru 6 6
+https://engpoetry.com 6 6
+http://doxysexy.com 5 5
+https://med-dopomoga.com 5 5
+https://sowhoz.ru 4 4
+http://komputers-best.ru 4 4
+https://jav-fetish.com 1 1
+https://www.artblog.top/if-you-want-a-lot-more-blog-traffic-these-suggestions-should-be-able-to-help/31896569/ 1 1
+https://migronis.com 3 3
+http://rumamba.com 3 3
+http://ukrtvory.in.ua 2 2
+http://xn----7sbabn5abjehfwi8bj.xn--p1ai 1 1
+http://sweet.tv 3 3
+http://www.drugstoreforyou.com 3 3
+http://vector.peskostryi.ru 3 3
+https://www.howblog.top/how-to-use-seo-to-get-free-traffic-to-your-blog/31655087/ 2 2
+http://fialka.tomsk.ru 1 1
+http://en.kievfilmfestival.com 0 3
+https://porndl.org 1 1
+http://en.kievfilmfestival.com/content/awards 2 29
+http://8xv8.com 1 1
+https://iskussnica.ru 1 1
+http://euros.port.bg 1 1
+http://en.kievfilmfestival.com/content/kff-2017 2 86
+https://englishtopic.ru 3 3
+http://www.drugstoreforyou.com 3 3
+http://en.kievfilmfestival.com/user/login 2 28
+http://www.tsatu.edu.ua 1 1
+http://buypillsonline24h.com 2 2
+http://sta-grand.ru 2 2
+https://www.artblog.top/if-you-want-a-lot-more-blog-traffic-these-suggestions-should-be-able-to-help/31655087/ 1 1
+https://www.blogping.xyz/increase-traffic-to-your-website-with-seo/31896569/ 1 1
+http://5elementov.ru 3 3
+https://www.youtube.com 1 1
+https://predmety.in.ua 3 3
+https://porndl.org 1 1
+http://elementspluss.ru 3 3
+https://buyclomidonlaine.com 2 2
+http://en.kievfilmfestival.com/content/rules 3 29
+http://serialsx.ru 3 3
+http://en.kievfilmfestival.com/content/program-guide 4 55
+https://cheappills24h.com 2 2
+http://en.kievfilmfestival.com/index.php 1 1
+http://pornobest.su 3 3
+http://skinali.photo-clip.ru 2 2
+http://sweet.tv 3 3
+https://med-dopomoga.com 2 2
+http://kinostar.online 1 1
+http://91.234.32.19/userinfo.php 0 6
+http://en.kievfilmfestival.com/content/contacts 1 31
+https://s-forum.biz 2 2
+http://en.kievfilmfestival.com/content/locations 3 38
+http://en.kievfilmfestival.com/content/about 3 32
+http://en.kievfilmfestival.com/modules/system/system.base.css 0 1
+http://pospektr.ru 2 2
+http://rumamba.com 2 2
+http://pornoslave.net 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 6
+403 251 1421218
+302 801 446679
+206 2 6431
+400 1 415
+301 3 1392
+404 4608 39134998
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 546
+/blog/wp-includes/wlwmanifest.xml 1 -
+/poly 1 -
+/xx.php 28 -
+/test/sqlite/SQLiteManager-1.2.0/SQLiteManager-1.2.0/main.php 2 http://91.234.32.19/
+/h1.php 1 -
+/mysql_admin/index.php 1 -
+/content/ 5 -
+/phpmanager/scripts/setup.php 1 -
+/xz.php 1 -
+/wp-content/plugins/portable-phpmyadmin/wp-pma-mod/index.php 4 -
+/install/ 1 -
+/cmd.php 53 -
+/wp-content/themes/u-design/style.css 1 http://en.kievfilmfestival.com/wp-content/themes/u-design/style.css
+//license.php 2 -
+/knal.php 20 -
+/struts2-rest-showcase/orders.xhtml 2 -
+/db_session.init.php 24 -
+/php_debug 1 -
+/bea_wls_deployment_internal 105 -
+/xiaodai.php 1 -
+/currentsetting.htm 1 -
+/test/ 1 -
+//wp-login.php 3 -
+/phpMyAdmin-2.8.0-rc1/scripts/setup.php 1 -
+/lala-dpr.php 23 -
+/dexgp.php 1 -
+/phpmyAdmin/index.php 4 -
+/wp-content/themes/Ghost/includes/uploadify/upload_settings_image.php 4 http://en.kievfilmfestival.com/wp-content/themes/Ghost/includes/uploadify/upload_settings_image.php
+/image_add/useful_pictures/_%28260x131%29_4f475e3eb2cb1.php 1 -
+/hh.php 1 -
+/payload.php 19 -
+/phpstudy.php 17 -
+/dbadmin/index.php 3 -
+/sites/all/libraries/elfinder/src/connectors/php/connector.php 2 http://en.kievfilmfestival.com/sites/all/libraries/elfinder/src/connectors/php/connector.php
+/pay.php 1 -
+/wcp.php 1 -
+/content/-webkit-linear-gradient(top,%2520rgb(255,%2520255,%2520255)%25200%25,%2520rgb(227,%2520227,%2520227)%2520100%25) 1 http://en.kievfilmfestival.com/content/contacts
+/login.cgi 1 -
+/sites/default/files/js/js_ey57zPrcgc9S8xVGYQBpQIDuKQ0v2okMjSUI7hUF66Q.js 24 http://91.234.32.19/tags-product/fisheye-compact-camera-black
+/wan.php 1 -
+/phpMyAdmin-2.8.0.1/scripts/setup.php 1 -
+/system/logs/seo_script.php 1 -
+/yumo.php 3 -
+/shop/ 1 -
+/2phpmyadmin/index.php 4 -
+/phpStudy.php 14 -
+/help-e.php 25 -
+/module.php 9 -
+//monast/index.php 1 -
+/sites/default/files/js/js_IaUIKtkjZ0Nke8D33v2535mud4DxN_BJ5KCe-x2vCRE.js 21 http://91.234.32.19/catalog/bolshaya-kozhanaya-sumka
+/w.php 22 -
+/ssaa.php 1 -
+/indes.php 1 -
+/cpanelmysql/scripts/setup.php 1 -
+/confg.php 1 -
+/provision/y000000000000.cfg 1 -
+/ak47.php 13 -
+/phppma/index.php 3 -
+/phpMyAdmin-2.5.6/scripts/setup.php 1 -
+/userinfo.php\t5b2dac828497f6b7d78052d4\t20079\t\t\tCLReviewed,InTheClear 1 -
+/components/com_facileforms/libraries/jquery/uploadify.php 2 http://kievfilmfestival.com/components/com_facileforms/libraries/jquery/uploadify.php
+/sites/default/ps.php 102 -
+/tomcat.php 1 -
+/miao.php 1 -
+/wordpress/wp-includes/wlwmanifest.xml 1 -
+/qw.php 1 -
+/phpmyadmin/scripts/db___.init.php 23 -
+/phpMyAdmin-2.5.5-pl1/scripts/setup.php 1 -
+/conf1g.php 1 -
+/sites/default/files/css/css_69iQNH9_V5jG-ypN2uK1-Lehh5o2pv6am8NNHLtqn_M.css 21 http://91.234.32.19/catalog/bolshaya-kozhanaya-sumka
+/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 3 -
+/phpMyAdmin-2.6.0-pl1/scripts/setup.php 1 -
+/s.php 34 -
+//u.php 12 -
+/xampp/phpmyadmin/index.php 1 -
+/core/22224507af5730fecd6ad13954293f31.php 9 -
+/main.php 2 http://91.234.32.19/
+/phpMyAdmin-2.8.0.3/scripts/setup.php 1 -
+/forum/ 1 http://kievfilmfestival.com/forum/
+/index.do 2 -
+/yao.php 12 -
+/wp-content/themes/multimedia1/server/php/ 1 http://kievfilmfestival.com/wp-content/themes/multimedia1/server/php/
+/sites/default/files/js/js__PvUKN63ZCXA1Uyh9m6Po8fz2nFY2YkYY-gZIFyUbeA.js 4 http://91.234.32.19/photo-gallery
+/db__.init.php 21 -
+/servlet 1 -
+/pmd/index.php 4 -
+/shell.php 44 -
+/feixiang.php 14 -
+/linuxse.php 1 -
+/phpMyAdmin-2.6.4-pl2/scripts/setup.php 1 -
+/phpMyAdmin-2.8.1-rc1/scripts/setup.php 1 -
+/caiTianXiaLoginWeb/app/home 1 -
+/t6nv.php 1 -
+/_query.php 26 -
+/wp//wp-login.php 1 -
+/misc/js.php 1 -
+/post.php 1 -
+/qa.php 1 -
+/loikfd.php 1 -
+/infoo.php 1 -
+/phpMyAdmin-2.6.2/scripts/setup.php 1 -
+/phpmy/index.php 3 -
+/administrator 1 -
+/wp-includes/ 1 -
+/sites/default/files/loikfd.php 1 -
+/content/terms-and-conditions 1 -
+/sites/default/files/css/css_4Vw4mLIz8t0zUpLntCKsWc-xuhB09spcvYnawSU8ki4.css 6 http://91.234.32.19/photo-gallery
+/xamlreader.php 1 -
+/sites/default/files/js/js_ft89cfdS_NOFlmCuOILrKpE7uq-m1HbAxfy1JS32HYY.js 20 http://91.234.32.19/catalog/bolshaya-kozhanaya-sumka
+/templates/system/css/system.css 2 -
+/m.php 21 -
+/muhstik.php 25 -
+/redirect.php 1 -
+/z.php 22 -
+/wp/ 7 -
+/cms/wp-includes/wlwmanifest.xml 1 -
+/zuos.php 1 -
+/pres-industriya/instytut 1 -
+/muhstiks.php 22 -
+/content/programa-festyvalyu 1 http://away.vk.com/away.php
+/erwa.php 1 -
+/phpMyAdmin-2.2.3/scripts/setup.php 1 -
+/boots.php 1 -
+/sites/default/files/css/css_xE-rWrJf-fncB6ztZfd2huxqgxu4WO-qwma6Xer30m4.css 31 http://91.234.32.19/catalog/kozhanyy-chemodan-polaroid-land
+//img 1 -
+/phpMyAdmin-2.2.6/scripts/setup.php 1 -
+/prov 1 -
+/hello.php 1 -
+/oscommerce/ 1 -
+/wp-content/plugins/log.php 1 -
+/muhstik-dpr.php 24 -
+/phpmyadmin3/index.php 4 -
+/pma/scripts/setup.php 4 -
+/text.php 20 -
+/mysqlmanager/scripts/setup.php 1 -
+/ou2.php 1 -
+/wp-version.php 1 -
+/ezon/login.do 1 -
+/sites/default/files/styles/site-settings.php 1 -
+/sites/default/files/night-skymall_1280-3@2x.jpg 2 http://kievfilmfestival.com/content/rozmishchennya
+/wp-admin/includes/ 1 -
+/clientaccesspolicy.xml 10 -
+/check_proxy 2 -
+/she.php 1 -
+/wp-conde.php 1 -
+/manager/index.php 1 http://kievfilmfestival.com/manager/index.php
+/joomla/robots.txt 2 -
+/tags/ 1 -
+/pma.php 1 -
+/phpMyAdmin-2.5.4/scripts/setup.php 1 -
+/cisco 1 -
+/s1.php 1 -
+/web/phpMyAdmin/index.php 3 -
+/db_cts.php 24 -
+/sites/default/files/js/js_Ykxs3djgySaCyho0IGJfzaDfiWnPTc35lTdZc1Ojud0.js 6 http://91.234.32.19/comment/2
+/modules/vtemslideshow/uploadimage.php 1 http://en.kievfilmfestival.com/modules/vtemslideshow/uploadimage.php
+//freepbx/admin/config.php 1 -
+/sites/default/files/css/css_S5QjJl8zseMNZWbqYRRPojquKfwGzGKPhBcnbe7dshk.css 29 http://91.234.32.19/catalog/kozhanyy-chemodan-polaroid-land
+/log.php 23 -
+/phpMyAdmin-2.7.0-pl2/scripts/setup.php 1 -
+/xw1.php 24 -
+/qq.php 20 -
+/evox/about 1 -
+/uuu.php 1 -
+/gponForm/diag_Form 1 -
+/sites/default/files/css/css_pFQg-2jQlJdVR4tKCPRWEn3h5ii7V0cQbkjZtq6db1M.css 20 http://91.234.32.19/tags-product/fisheye-compact-camera-black
+/9d528610f45ac186dc8c1c89d940c055.php 1 -
+/aw.php 1 -
+//cticc/login.php 1 -
+/sites/all/themes/venture_theme/images/slide-image-1@2x.jpg 5 http://en.kievfilmfestival.com/
+/PMA/index.php 4 -
+/phpMyAdmin__/index.php 1 -
+/phpMyAdmin/scripts/setup.php 59 -
+/default.php 1 -
+/l7.php 7 -
+/jbossass/jbossass.jsp 1 -
+/phpMyAdmin-2.6.2-rc1/scripts/setup.php 1 -
+/q.php 13 -
+/9510.php 1 -
+/9678.php 22 -
+/sites/default/files/temp/tmp.php 1 -
+/sites/default/files/js/js_xZx8WAPdd5njWuLwGKHjYStjmk6x0wcL3CEhmXlRtzk.js 21 http://91.234.32.19/catalog/bolshaya-kozhanaya-sumka
+/mysql/scripts/setup.php 1 -
+/assets/super_admin/vendor/jquery-file-upload/server/php/ 2 http://en.kievfilmfestival.com/assets/super_admin/vendor/jquery-file-upload/server/php/
+/wp-content/themes/organizer/lib_upload/server/php/ 2 http://en.kievfilmfestival.com/wp-content/themes/organizer/lib_upload/server/php/
+/qwe.php 1 -
+/themes/engines/index.php 1 -
+/weixiao.php 14 -
+/wp-admin/admin-ajax.php 4 http://kievfilmfestival.com/wp-admin/admin-ajax.php
+/wshell.php 20 -
+/js/mage/cookies.js 1 kievfilmfestival.com
+/phpMyAdmin-2.6.1-pl3/scripts/setup.php 1 -
+/system.php 6 -
+/modules/namamodule/uploadimage.php 1 http://kievfilmfestival.com/modules/namamodule/uploadimage.php
+/blog/administrator/index.php 2 -
+/admin.login.jsp 1 -
+/polycom/000000000000.cfg 1 -
+/db_pma.php 24 -
+/configa.php 1 -
+/phpmyadmin1/index.php 2 -
+/test.php 26 -
+/sitefinity/UserControls/Dialogs/DocumentEditorDialog.aspx 2 http://en.kievfilmfestival.com/sitefinity/UserControls/Dialogs/DocumentEditorDialog.aspx
+/off 1 -
+/mysqladmin/index.php 1 -
+/phpMyAdmin-2.8.0/scripts/setup.php 1 -
+/wp-content/themes/evolve/js/back-end/libraries/fileuploader/upload_handler.php 2 http://en.kievfilmfestival.com/wp-content/themes/evolve/js/back-end/libraries/fileuploader/upload_handler.php
+/userinfo.php 1025 -
+/ss.php 1 -
+/51314.php 1 -
+/lindex.php 16 -
+/sites/all/themes/venture_theme/images/slide-image-3@2x.jpg 5 http://en.kievfilmfestival.com/
+/phpmyadmin 4 http://91.234.32.19/phpmyadmin
+/k.php 1 -
+/ps.php 112 -
+/ipv6test/test 1 -
+/sites/default/files/js/js_UwO_0RHLq_nsvPwmX_QYU1JLTYOeZOvu0d7mUDYvhvQ.js 31 http://91.234.32.19/catalog/kozhanyy-chemodan-polaroid-land
+/phpMyAdmin-2.6.0-rc1/scripts/setup.php 1 -
+/xp.php 1 -
+/sitemap.xml 40 -
+/cacti/plugins/weathermap/editor.php 21 -
+//scripts/setup.php 1 -
+/pmamy2/index.php 4 -
+/help.php 24 -
+/sites/default/files/ps.php 103 -
+/nuoxi.php 1 -
+/ppx.php 1 -
+/mysql-admin/index.php 3 -
+/plugins/weathermap/editor.php 20 -
+//config.php 1 -
+/lol.php 23 -
+//callrec.php 1 -
+/mysql/ 3 http://91.234.32.19/
+/sites/default/files/payload.php 9 -
+/.well-known/security.txt 3 -
+/pmamy/index.php 4 -
+/Ss.php 1 -
+/ata 1 -
+/phpmyadmin4/index.php 4 -
+/tiandi.php 1 -
+/sites/all/libraries/elfinder/connectors/php/connector.php 2 http://en.kievfilmfestival.com/sites/all/libraries/elfinder/connectors/php/connector.php
+/sites/default/files/night-skymall_1280-2@2x.jpg 2 http://kievfilmfestival.com/content/rozmishchennya
+/myadmin/scripts/setup.php 8 -
+/cgi-bin/test-cgi 1 -
+/db.init.php 25 -
+/modules/homepageadvertise2/uploadimage.php 1 http://en.kievfilmfestival.com/modules/homepageadvertise2/uploadimage.php
+/Drupal.php 1 -
+/python.php 1 -
+/mysqladmin/scripts/setup.php 1 -
+/old-update.php 1 -
+/sites/default/files/Drupal.php 1 -
+/mysql/sqlmanager/index.php 4 -
+/administrator/templates/isis/ext.php 1 -
+/phpmyadmin0/index.php 2 -
+/sites/default/files/festival_awards@2x.jpg 11 http://en.kievfilmfestival.com/
+/MyAdmin/scripts/setup.php 5 -
+/phpAdmin/index.php 1 -
+/zuoshou.php 8 -
+/phpmyadmin/scripts/setup.php 59 -
+/wp-content/themes/sehf/server/php/ 2 http://kievfilmfestival.com/wp-content/themes/sehf/server/php/
+/sites/all/modules/colorbox.php 1 -
+/pmd_online.php 25 -
+/sites/default/files/temp/example.sites.php 1 -
+//db/scripts/setup.php 1 -
+/000000000000.cfg 1 -
+/assets/components/gallery/css/mgr.css 2 http://kievfilmfestival.com/assets/components/gallery/css/mgr.css
+/zshmindex.php 1 -
+/ceshi.php 1 -
+/search.php 1 -
+/blog/robots.txt 5 -
+/cainiao.php 10 -
+/xxx.php 1 -
+/wp/wp-includes/wlwmanifest.xml 1 -
+/2.php 1 -
+/content/nagorody 22 -
+/l8.php 6 -
+/zuoindex.php 1 -
+/assets/components/gallery/css/fileuploader.css 3 http://kievfilmfestival.com/assets/components/gallery/css/fileuploader.css
+/hudson/script 2 http://91.234.32.19/
+/administrator/components/com_simplephotogallery/lib/uploadFile.php 2 http://en.kievfilmfestival.com/administrator/components/com_simplephotogallery/lib/uploadFile.php
+/images/logo.gif 1 -
+/mysql/index.php 4 -
+/misc/jquery.php 1 -
+/caonma.php 1 -
+/manager/html 3 -
+/htdocs.php 24 -
+/wordpress//wp-login.php 1 -
+/uploader.php 23 -
+//templates/system/css/system.css 2 -
+//mysql/scripts/setup.php 1 -
+/sqlite/main.php 2 http://91.234.32.19/
+/sites/default/files/css/css_1A2ZetEWGOtOXdkpB9uYmPVLDLCGsAS5kNX5pa_3Hhc.css 11 http://91.234.32.19/catalog
+/hack.php 1 -
+//sites/default/files/vuln.php 2 -
+/wp-content/plugins/work-the-flow-file-upload/public/assets/jQuery-File-Upload-9.5.0/server/php/index.php 2 http://kievfilmfestival.com/wp-content/plugins/work-the-flow-file-upload/public/assets/jQuery-File-Upload-9.5.0/server/php/index.php
+/wp-admins.php 19 -
+/5201314.php 1 -
+/wordpress/ 7 -
+//welcome.htm 1 -
+/56.php 6 -
+/ruyi.php 1 -
+/sites/default/files/fuck.php 1 -
+/website/ 2 -
+/site/wp-includes/wlwmanifest.xml 1 -
+/provisioning 1 -
+/sites/default/files/night-skymall_1280@2x.jpg 2 http://kievfilmfestival.com/content/rozmishchennya
+//fop2/recordings.php 1 -
+/phpMyAdmin-2.6.4-pl3/scripts/setup.php 1 -
+/jexinv3/jexinv3.jsp 1 -
+/news/html 3 http://www.kievfilmfestival.com/news/html
+//vuln.php 2 -
+/sean.php 1 -
+/HNAP1/ 9 http://91.234.32.19/
+/conflg.php 18 -
+/mysql-admin/scripts/setup.php 1 -
+/sites/default/files/js/js_hbCs-Jp4M77A5aKC8_pY18-frLS-3JEeApksrZsRZlU.js 31 http://91.234.32.19/catalog/kozhanyy-chemodan-polaroid-land
+/appserv.php 20 -
+/wp-content/themes/village/blueprint/gallery/ajaxupload/server/php.php 2 http://en.kievfilmfestival.com/wp-content/themes/village/blueprint/gallery/ajaxupload/server/php.php
+/wp-login.php 11 -
+/store/ 1 -
+/phpMyadmin/index.php 4 -
+/aaaa.php 1 -
+/cgi-bin/user/Config.cgi 1 -
+/SQLite/main.php 2 http://91.234.32.19/
+/modules/0eb9b3af2e4a00837a1b1a854c9ea18c.php 1 -
+/language/en-GB/en-GB.xml 1 -
+/SQLiteManager/main.php 2 http://91.234.32.19/
+/cpanelsql/scripts/setup.php 1 -
+/jexws2/jexsw2.jsp 1 -
+/components/com_sexycontactform/fileupload/index.php 2 http://en.kievfilmfestival.com/components/com_sexycontactform/fileupload/index.php
+/index.html 1 -
+/mz.php 5 -
+/winbox.png 1 -
+/provisoning 1 -
+/tmps.php 1 -
+/bak.php 6 -
+/zuoss.php 1 -
+/jexinv4/jexinv4.jsp 1 -
+/license.php 26 -
+/wanan.php 1 -
+/PMA/ 3 http://91.234.32.19/
+/bbs/data/scripts/setup.php 1 -
+/ads.txt 2 -
+/cf_scripts/scripts/cfformhistory.cfm 5 -
+/cmv.php 21 -
+/mysql/admin/index.php 5 -
+/wpc.php 3 -
+/sheep.php 25 -
+/ncsi.txt 2 http://91.234.32.19/
+/wp-content/uploads/ 1 -
+/u.php 1 -
+/wls-wsat/CoordinatorPortType 3 -
+/ccvv 3 -
+/ushop/ 1 -
+/sites/default/s.php 1 -
+/l6.php 6 -
+/cf_scripts/scripts/ajax/ckeditor/plugins/filemanager/fm.png 1 -
+/snom 1 -
+/web-console/ServerInfo.jsp 1 -
+/logon.php 23 -
+/sites/default/files/img_0059@2x.jpg 1 http://kievfilmfestival.com/content/nagorody
+/phpMyAdmin-2.6.1-pl2/scripts/setup.php 1 -
+/xiao.php 12 -
+/183CD6B15477D171DECA14C65200943B.php 6 -
+/wp/test/ 1 -
+/index.action 4 -
+/provision 1 -
+/moo 1 -
+/core.php 1 -
+//user/register%3Felement_parents=timezone/timezone/%23value&ajax_form=1&_wrapper_format=drupal_ajax 2 -
+/scripts/setup.php 21 -
+/webdav/ 28 -
+//phpmyadmin3/scripts/setup.php 1 -
+/polycom 2 -
+/user/-webkit-linear-gradient(top,%2520rgb(255,%2520255,%2520255)%25200%25,%2520rgb(227,%2520227,%2520227)%2520100%25) 1 http://en.kievfilmfestival.com/user/login
+/defect.php 11 -
+/pma/index.php 6 -
+/sss.php 1 -
+/phpMyAdmin-2.8.0-rc2/scripts/setup.php 1 -
+/aotu.php 6 -
+/wp-content/plugins/wp-formgenerator/uploads/php/ 2 http://en.kievfilmfestival.com/wp-content/plugins/wp-formgenerator/uploads/php/
+/repeat.php 1 -
+/menus.php 1 -
+/x.php 22 -
+/mx.php 21 -
+/phpmyadmin2/index.php 7 -
+/nmaplowercheck1541845877 1 -
+/cf_scripts/scripts/ajax/ckeditor/plugins/filemanager/filemanager.cfm 2 -
+/apache-cgi-bin.php 1 -
+/cmdd.php 23 -
+/dbadmin/scripts/setup.php 1 -
+/phpMyAdmin-2.6.1-pl1/scripts/setup.php 1 -
+/hm.php 10 -
+/users/users/main.php 1 -
+/sites/default/files/css/css_wVp12mngoHko8da-P6HGdxMOHhLOxNNw_ntU07H6Mw8.css 6 http://91.234.32.19/comment/2
+/assets/images/seo_script.php 2 -
+/login.php 1 -
+/blog/ 7 -
+/system/storage/logs/seo_script.php 1 -
+/92.php 1 -
+/linksys 1 -
+/qaz.php 1 -
+/status 32 -
+/assets/global/plugins/jquery-file-upload/server/php/index.php 1 -
+/phpMyAdmin-2.6.3-rc1/scripts/setup.php 1 -
+/cf_scripts/scripts/ajax/ckeditor/plugins/filemanager/filemanager.cfc 1 -
+/webslee.php 10 -
+/azenv.php 2 -
+/sqladmin/scripts/setup.php 1 -
+/home.asp 1 -
+/phpMyAdmin-2.5.5-rc1/scripts/setup.php 1 -
+/agSearch/SQlite/main.php 2 http://91.234.32.19/
+/wp-content/themes/nuance/style.css 1 http://en.kievfilmfestival.com/wp-content/themes/nuance/style.css
+/java.php 22 -
+/phpMyAdmin-2.6.0-pl2/scripts/setup.php 1 -
+/phpMyAdmin/ 3 http://91.234.32.19/
+/ak48.php 14 -
+/phpMyAdmin-2.6.4-pl4/scripts/setup.php 1 -
+/22224507af5730fecd6ad13954293f31.php 9 -
+/phpMyAdmin/scripts/db___.init.php 23 -
+/phpmyadmin/index.php 23 -
+/phpMyAdmin/index.php 7 -
+/catalog/ 1 -
+/wp-content/plugins/dzs-videogallery/admin/dzsuploader/upload.js 1 http://kievfilmfestival.com/wp-content/plugins/dzs-videogallery/admin/dzsuploader/upload.js
+/script 2 http://91.234.32.19/
+/phpmyadmin2/scripts/setup.php 1 -
+/php-myadmin/scripts/setup.php 1 -
+/cpadmin/scripts/setup.php 1 -
+/tags-product/la-sardina-st-tropez-fontanette 1 -
+/wpo.php 21 -
+/xw.php 21 -
+/crouter.php 1 -
+/ak.php 1 -
+/login.html 1 -
+//index.php 1 -
+/pma/ 3 http://91.234.32.19/
+/ldw.php 1 -
+/db_desql.php 20 -
+//MainForm.wgx 1 -
+/phpinfi.php 1 -
+/phpadmin/scripts/setup.php 1 -
+/. 1 -
+/HNAP1 1 -
+/mysql/mysqlmanager/index.php 4 -
+/1213.php 1 -
+/joomla/administrator/index.php 2 -
+/cpadmindb/scripts/setup.php 1 -
+/ip.php 1 -
+/cfg 1 -
+/12.php 1 -
+//phpmyadmin/scripts/setup.php 1 -
+/sites/all/libraries/elfinder/elfinder.html 2 http://en.kievfilmfestival.com/sites/all/libraries/elfinder/elfinder.html
+/assets/plugins/jquery-file-upload/server/php/index.php 1 -
+/lock.php 1 -
+/SQlite/main.php 2 http://91.234.32.19/
+/pe.php 10 -
+/phpMyAdmin-2.6.0-beta1/scripts/setup.php 1 -
+/phpMyAdmin-2.7.0-pl1/scripts/setup.php 1 -
+/sites/default/files/jsspwnx.php 2 -
+/osc/ 1 -
+/sites/default/files/css/css_13Or48AjnfY2lKahK7K373ndafrVLR8g-8Jmul-Mohs.css 31 http://91.234.32.19/catalog/kozhanyy-chemodan-polaroid-land
+/blog//wp-login.php 1 -
+/wuwu11.php 25 -
+/sites/default/files/js/js_COMsmDyrY9mzVU28X2uGvF4Ba3vd5eTo5xEO7dvCUZM.js 32 http://91.234.32.19/catalog/kozhanyy-chemodan-polaroid-land
+//myadmin/scripts/setup.php 1 -
+/db_dataml.php 17 -
+/sqlitemanager/main.php 2 http://91.234.32.19/
+/1.php 2 -
+/phpadmin/index.php 2 -
+/zuo.php 7 -
+/mysql/dbadmin/index.php 5 -
+/administrator/index.php 2 -
+/scripts/cfformhistory.cfm 25 -
+/sha.php 1 -
+/wp-content/themes/u-design/scripts/admin/uploadify/uploadify.css 2 http://en.kievfilmfestival.com/wp-content/themes/u-design/scripts/admin/uploadify/uploadify.css
+/plus/recommend.php 3 http://www.kievfilmfestival.com/plus/recommend.php
+//vuln.htm 6 -
+/wp-includes/js/wpdialog.js 1 kievfilmfestival.com
+/cmx.php 26 -
+/assets/jquery-file-upload/server/php/index.php 1 -
+//fckeditor/editor/filemanager/connectors/php/upload.php 2 -
+/phpMyAdmin-2.5.7/scripts/setup.php 1 -
+/phpMyAdmin-2.6.0-rc2/scripts/setup.php 1 -
+/okokok.php 1 -
+/jexws3/jexws3.jsp 1 -
+/templates/protostar/js/templateDetails.php 1 -
+/min.php 3 -
+/lala.php 24 -
+/media/ 5 -
+/beta/ 1 -
+/api.php 1 -
+//ps/snom.php 1 -
+/hook-filters.php 1 -
+/phpmyadmin/ 4 http://91.234.32.19/
+/english/ 2 -
+/wc.php 22 -
+/godkey.php 1 -
+/jexws4/jexws4.jsp 1 -
+/hell.php 26 -
+/sites/default/files/film-reel-logo-small-2@2x.png 15 http://en.kievfilmfestival.com/
+/sites/default/files/css/css_vWqFgJctQgBiT5TVEYnnA9wOyPolOjAqT0W7sAhugpM.css 18 http://91.234.32.19/catalog/bolshaya-kozhanaya-sumka
+/sites/all/themes/venture_theme/images/slide-image-2@2x.jpg 5 http://en.kievfilmfestival.com/
+/1hou.php 1 -
+/wp-content/plugins/dzs-portfolio/admin/dzsuploader/upload.js 1 http://kievfilmfestival.com/wp-content/plugins/dzs-portfolio/admin/dzsuploader/upload.js
+/PMA/scripts/setup.php 1 -
+/fdsrwe 1 -
+/wp-config.php 24 -
+/desktop.ini.php 23 -
+/general.php 1 -
+/xshell.php 18 -
+/assets/images/search.php 1 -
+/w00tw00t.at.blackhats.romanian.anti-sec:) 5 -
+//logchk 1 -
+/muhstik2.php 23 -
+/PMA2/index.php 4 -
+/wp-content/plugins/art-picture-shop/admin/file-upload/server/php/ 2 http://kievfilmfestival.com/wp-content/plugins/art-picture-shop/admin/file-upload/server/php/
+/themes/bartik/index.php 1 -
+//payload.php 6 -
+/sdk 1 -
+/SQLiteManager-1.2.4/main.php 2 http://91.234.32.19/
+/site/ 2 -
+/phpMyAdmin-4.4.0/index.php 2 -
+/sites/default/files/vuln.php 1 -
+/device_description.xml 1 -
+/twig.php 1 -
+/acadmin.php 1 -
+/echo.php 4 https://www.google.com/
+/fusheng.php 1 -
+/app.php 1 -
+/c.php 1 -
+/p/m/a/scripts/setup.php 1 -
+/phpmyadmin/phpmyadmin/index.php 1 -
+/db/index.php 4 -
+/phpMyAdmin-2.6.4/scripts/setup.php 1 -
+/qaq.php 23 -
+/phpformbuilder/plugins/jQuery-File-Upload/server/php/index.php 1 -
+/wp-content/plugins/simple-forum/resources/jscript/ajaxupload/sf-uploader.php 2 http://en.kievfilmfestival.com/wp-content/plugins/simple-forum/resources/jscript/ajaxupload/sf-uploader.php
+//wuwu11.php 1 http://91.234.32.19//wuwu11.php
+/cpphpmyadmin/scripts/setup.php 1 -
+/assets/modules/evogallery/js/uploadify/uploadify.css 1 http://kievfilmfestival.com/assets/modules/evogallery/js/uploadify/uploadify.css
+//sites/default/files/payload.php 3 -
+//management/MainForm.wgx 1 -
+/db/scripts/setup.php 1 -
+//phpMyAdmin/scripts/setup.php 1 -
+/sites/default/files/7.php 1 -
+/auth/login 1 -
+/dbadmin/ 3 http://91.234.32.19/
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 1218
+140.143.161.57 546 546 4163565 20181111123008
+158.69.133.31 510 561 10628086 20181130231603
+91.210.147.149 210 210 1051454 20181105025308
+39.106.220.230 199 199 1512924 20181115175547
+193.226.177.40 183 183 3977505 20181118052002
+185.112.82.237 152 152 2161744 20181124211032
+18.222.108.192 150 150 860878 20181121122357
+52.14.175.39 140 140 803502 20181121025515
+18.216.137.18 140 140 803497 20181121132440
+18.191.165.71 140 140 803493 20181121135355
+5.57.37.187 1 1 21735 20181101070635
+196.52.43.98 1 1 21936 20181107005115
+82.165.203.144 1 1 21936 20181117091751
+176.195.172.225 1 1 21735 20181120011140
+82.141.189.10 1 1 21735 20181109201354
+220.243.135.62 2 8 26492 20181112203733
+5.234.158.13 1 1 21735 20181126100419
+79.51.195.184 1 1 21735 20181120235313
+36.65.79.147 1 1 21735 20181108213425
+217.69.143.217 3 6 23785 20181124062734
+51.68.120.186 1 1 21735 20181122023740
+177.139.104.166 1 1 21735 20181103112519
+64.126.163.140 1 1 21735 20181130232357
+191.254.203.63 1 1 21735 20181115001555
+143.202.188.56 1 1 21735 20181107163437
+220.243.136.113 1 19 47073 20181122095846
+93.103.182.60 2 2 10159 20181115071227
+177.130.245.165 1 1 21735 20181115195048
+192.3.176.136 3 3 1925 20181125053227
+220.243.135.166 0 6 59854 
+31.216.105.132 2 2 43470 20181101060614
+18.223.102.185 1 1 5739 20181130223954
+219.83.75.114 1 1 21735 20181127060706
+18.188.169.26 1 1 5862 20181130191156
+220.243.136.37 0 3 186266 
+220.243.136.234 1 1 4980 20181117192947
+220.243.136.3 1 1 6227 20181112203730
+187.35.44.49 1 1 21735 20181101021011
+77.45.15.109 1 1 21735 20181116003753
+61.153.209.244 1 1 21735 20181123023206
+18.223.132.225 45 45 260490 20181119011410
+187.74.196.109 1 1 21735 20181128063409
+195.181.95.48 3 3 65205 20181128143318
+103.38.70.155 1 1 21735 20181109091031
+185.98.234.8 1 1 21735 20181129055102
+201.42.82.182 1 1 21735 20181123100502
+94.250.249.41 1 1 434 20181105234156
+178.137.91.54 14 14 308392 20181130134040
+37.204.42.146 2 24 317745 20181123052527
+18.222.139.46 1 1 5864 20181130224502
+185.103.110.205 106 106 1507524 20181130224520
+3.16.89.76 9 9 51908 20181119081554
+27.156.91.170 1 1 5865 20181101181941
+120.33.229.108 1 1 5740 20181129184131
+45.248.41.161 1 1 21735 20181111130540
+220.243.136.68 4 4 162214 20181107003559
+54.38.138.122 2 2 22323 20181106083531
+220.243.135.115 1 1 4441 20181114073358
+104.227.246.106 4 4 87928 20181127170841
+128.199.229.136 1 1 21735 20181121224019
+5.97.99.114 4 35 1529503 20181114184718
+198.108.66.96 1 1 5870 20181129000542
+190.2.148.176 1 1 21936 20181101022327
+78.11.95.208 1 1 21735 20181112101644
+189.114.113.26 1 1 21735 20181119234140
+113.140.78.42 1 1 21735 20181121185742
+118.96.206.138 1 1 21735 20181108142014
+66.220.149.32 0 5 419865 
+212.69.18.168 1 1 21735 20181103204716
+40.77.192.126 0 1 37306 
+192.99.35.63 1 1 429 20181127091636
+40.77.189.153 0 6 61723 
+124.41.213.45 1 1 21735 20181125170558
+180.95.216.217 1 1 5872 20181123154436
+188.136.206.54 1 1 21735 20181105181929
+91.103.66.203 2 2 11478 20181117004352
+151.232.155.245 1 1 21735 20181116114256
+120.52.152.4 1 1 21735 20181117133433
+186.47.211.74 1 1 21735 20181114012208
+194.44.16.53 1 1 21735 20181110120034
+35.238.181.167 2 28 417738 20181103161749
+79.107.138.169 2 2 43470 20181112204223
+37.235.252.161 1 1 21735 20181127125832
+64.202.160.250 9 9 53299 20181125122723
+220.243.136.194 0 6 15150 
+18.191.154.160 17 17 98921 20181119141449
+139.162.119.197 4 4 86940 20181130223403
+220.243.135.178 2 2 11055 20181114073358
+138.219.109.169 1 1 21735 20181107033828
+152.249.168.150 1 1 21735 20181101102435
+171.34.218.190 1 1 5869 20181121085029
+196.250.218.92 1 1 21735 20181111123423
+138.118.101.191 1 1 21735 20181129142623
+202.63.241.80 1 1 21735 20181118100743
+158.46.164.220 1 1 5862 20181114184933
+18.188.208.82 26 26 150687 20181119004505
+153.232.82.223 1 1 21936 20181129162814
+220.243.135.211 0 6 16052 
+62.210.157.10 2 2 44536 20181118151724
+195.175.75.134 1 1 21735 20181122191442
+179.113.19.181 1 1 21735 20181111143022
+220.243.135.128 1 1 6267 20181105175654
+64.246.165.190 1 1 5865 20181113155000
+220.243.135.136 2 7 250401 20181120040732
+95.28.197.139 1 1 21735 20181130205903
+40.77.192.186 0 1 564 
+46.209.45.10 1 1 21735 20181112130920
+24.221.225.188 1 1 21735 20181104164622
+177.21.21.8 1 1 21735 20181121223438
+176.101.222.132 1 1 21735 20181120083039
+103.92.211.2 2 2 1538 20181127115826
+79.182.233.89 3 34 1523759 20181110183455
+103.43.80.131 1 1 21735 20181113073315
+173.252.95.16 0 1 1182 
+46.119.125.20 15 15 330420 20181126214644
+165.16.37.150 1 1 21735 20181110025314
+5.235.206.209 1 1 21735 20181109095326
+192.166.118.12 1 1 21735 20181117055430
+109.70.100.20 3 3 13934 20181128124009
+110.167.91.154 1 1 5864 20181121085027
+46.34.168.176 1 1 21735 20181129171733
+51.254.28.132 5 5 109261 20181130083523
+201.221.153.202 1 1 21735 20181111173741
+112.5.243.221 1 1 5866 20181127160122
+220.243.135.75 3 3 16321 20181114073357
+220.243.135.194 2 2 11252 20181107003552
+91.203.114.29 1 1 21735 20181107195235
+220.243.135.175 2 12 27282 20181105175652
+188.170.48.148 1 1 21735 20181111174922
+185.112.82.230 20 20 284440 20181112104355
+189.112.26.138 1 1 21735 20181119000024
+151.234.238.130 1 1 21735 20181107033102
+103.106.29.108 1 1 21735 20181114033533
+5.232.217.26 1 1 21735 20181114052102
+187.10.42.73 1 1 21735 20181117214920
+161.53.111.103 1 1 21735 20181117042501
+66.160.140.188 1 1 6477 20181123230314
+220.243.136.122 0 6 59854 
+95.65.177.180 1 1 21735 20181117193434
+103.210.44.58 1 1 21735 20181126080732
+223.72.61.177 1 1 4047 20181102140020
+180.76.187.106 1 1 21936 20181110110251
+79.166.134.163 1 1 21735 20181114192304
+195.176.3.24 2 2 8523 20181128000033
+41.32.166.210 1 1 21735 20181114233111
+203.142.78.254 1 1 21735 20181117144908
+177.67.157.207 1 1 21735 20181101061318
+196.52.43.100 1 1 21936 20181120160127
+18.188.69.31 25 25 145322 20181118054439
+18.223.82.211 1 1 21735 20181129092422
+189.111.67.44 1 1 21735 20181118005549
+40.77.195.5 0 1 3733 
+198.108.66.161 1 1 5872 20181106194246
+40.77.190.123 0 1 2704 
+83.167.17.144 1 1 21735 20181110215344
+180.183.9.182 1 1 5862 20181123201242
+188.32.166.153 1 30 1374438 20181129042934
+197.160.225.200 1 1 21735 20181124041819
+40.77.188.233 1 1 80652 20181102044018
+107.170.216.228 1 1 5872 20181108222602
+185.49.96.9 1 1 21735 20181123091117
+185.212.131.163 4 4 19849 20181130224406
+46.172.195.122 1 1 21735 20181104124107
+200.148.122.127 1 1 21735 20181127205916
+18.191.165.74 24 24 139214 20181118114448
+35.239.223.99 3 29 426797 20181103174951
+187.35.58.59 1 1 21735 20181106085829
+220.243.136.189 2 3 183706 20181121084920
+220.243.136.58 0 6 16052 
+192.162.102.35 1 1 21936 20181126094100
+34.206.139.108 1 1 21735 20181125032243
+138.197.202.197 1 1 44432 20181117004355
+107.170.219.28 1 1 5873 20181103041030
+102.176.187.138 1 1 21735 20181102060601
+186.193.28.52 1 1 21735 20181113200549
+180.211.194.70 1 1 21735 20181101061619
+18.191.217.208 8 8 46526 20181119051440
+185.249.252.88 1 1 21735 20181126034928
+128.177.10.252 1 1 22028 20181115203348
+104.248.15.217 1 1 5870 20181105060541
+124.248.166.197 1 1 21735 20181111220652
+31.221.17.209 4 38 1559212 20181101191520
+176.37.35.139 1 1 14346 20181103021844
+40.77.194.118 0 1 509 
+35.193.139.123 2 28 424204 20181103143949
+178.137.81.112 16 16 352448 20181126102444
+178.128.123.151 1 1 5874 20181124204656
+103.206.103.161 1 1 21735 20181124170739
+45.165.63.191 1 1 21735 20181121150951
+40.77.188.56 0 1 961 
+103.213.242.22 1 1 21735 20181108144213
+191.34.100.45 1 1 21735 20181107182158
+201.43.248.144 2 2 43470 20181116101930
+197.255.185.92 1 1 21735 20181128153115
+61.7.170.52 1 1 21735 20181122141200
+3.16.143.41 2 2 11725 20181130161109
+109.234.37.227 1 1 5862 20181102120708
+208.80.194.27 4 4 86940 20181130230736
+34.233.69.184 1 1 5869 20181113204943
+103.254.56.204 1 1 21735 20181121114721
+106.75.85.117 2 2 44243 20181120163534
+207.154.194.91 1 1 21735 20181120171743
+185.236.200.10 0 9 515275 
+40.77.188.12 0 1 872 
+23.236.57.135 1 1 5872 20181127213232
+134.249.48.173 19 19 418532 20181130220218
+182.76.202.34 2 2 43470 20181126201015
+191.97.42.5 1 1 21735 20181111205504
+187.95.173.42 1 1 21735 20181105155627
+52.53.201.78 14 14 82109 20181130164001
+85.119.88.206 1 1 21735 20181125181358
+18.218.1.84 12 12 68875 20181130222050
+40.77.252.55 0 1 1816 
+38.100.21.64 2 2 38109 20181109084441
+88.148.41.247 1 1 21735 20181104133715
+13.58.214.240 25 25 144583 20181118021417
+18.188.151.103 2 2 11603 20181117164357
+220.243.136.134 2 2 151052 20181120040738
+107.170.206.174 1 1 5867 20181126072846
+40.77.193.19 0 1 707 
+40.77.252.208 0 2 2179 
+202.166.210.70 1 1 21735 20181123173837
+50.46.199.81 4 4 42704 20181102071554
+178.212.89.128 1 1 21735 20181124150254
+177.188.45.179 2 2 43470 20181121015354
+54.172.118.182 1 1 21936 20181111150606
+46.143.179.187 1 1 21735 20181116003606
+220.243.135.2 3 3 156788 20181121084916
+3.17.10.145 3 3 17336 20181130191459
+189.69.20.11 2 2 43470 20181128015445
+201.48.184.202 1 1 21735 20181119025801
+194.28.181.203 1 1 21735 20181123220302
+220.243.136.201 4 4 19716 20181114073358
+177.197.73.142 1 1 21735 20181108201418
+129.205.136.8 1 1 21936 20181117060031
+177.102.106.81 2 2 43470 20181129044218
+220.243.136.35 0 6 9105 
+220.243.136.61 2 2 151052 20181120040739
+208.80.194.31 3 3 65205 20181108231559
+88.220.52.158 1 1 21735 20181119102851
+52.205.64.64 1 1 21735 20181122140723
+186.192.17.73 1 1 21735 20181129125438
+3.16.46.187 21 21 121621 20181119024510
+61.152.80.243 1 1 21936 20181110213023
+81.22.189.143 1 1 21735 20181117105632
+66.160.140.181 1 1 6477 20181103223720
+177.198.124.109 1 1 21735 20181119051358
+46.166.190.142 1 1 434 20181120043319
+185.212.131.112 10 10 49630 20181108131534
+220.243.136.178 1 1 4793 20181114073358
+220.243.136.199 0 6 16052 
+40.77.195.38 0 1 16031 
+107.170.210.111 1 1 5868 20181123070705
+178.159.38.251 1 1 21936 20181110152426
+220.243.135.246 1 1 4438 20181105175650
+189.46.91.131 1 1 21735 20181108010513
+103.70.129.148 1 1 21735 20181116094340
+18.191.93.143 6 6 34801 20181117061321
+3.16.159.52 4 4 23079 20181119201602
+220.243.136.8 2 17 344996 20181121122240
+110.177.77.108 1 1 5864 20181101181944
+93.113.124.199 2 2 43872 20181129080642
+177.189.4.87 1 1 21735 20181127125910
+5.22.206.253 1 1 21735 20181110170550
+198.108.66.64 1 1 5874 20181115050609
+58.136.4.223 1 1 21735 20181106080416
+177.67.4.4 1 1 21735 20181114211813
+31.41.88.158 1 1 21735 20181109174254
+122.96.131.9 1 1 5868 20181121085027
+139.170.67.205 1 1 21788 20181130140740
+189.69.162.222 1 1 21735 20181121015752
+220.243.135.26 0 12 25157 
+179.110.169.179 1 1 21735 20181118080935
+106.51.142.137 1 1 21735 20181102185223
+40.77.253.241 0 1 707 
+35.168.20.163 2 2 868 20181124122941
+177.105.237.182 1 1 21735 20181117125905
+80.89.89.226 1 1 21735 20181103152420
+220.243.135.53 1 1 4945 20181114073405
+60.191.38.77 18 18 391230 20181130130559
+18.188.206.157 29 29 168889 20181118191434
+220.243.135.238 1 1 5030 20181105175652
+220.243.136.238 4 4 22878 20181122071503
+92.17.4.139 1 1 21735 20181126141118
+121.96.216.19 1 1 21735 20181124194603
+190.114.238.164 1 1 21735 20181118035824
+35.224.191.48 2 57 1119583 20181103151228
+201.220.149.211 1 1 21735 20181108075643
+190.114.237.120 1 1 21735 20181121104047
+104.192.74.42 28 28 156462 20181104212049
+18.224.96.225 7 7 40419 20181119164516
+36.79.249.114 1 1 21735 20181113115850
+36.76.94.90 1 1 21735 20181112190409
+162.243.157.120 1 1 5871 20181114060422
+181.210.47.167 1 1 21735 20181115231848
+18.223.120.233 6 6 34922 20181119154605
+217.153.80.226 1 1 21735 20181101012701
+31.13.115.7 1 6 459942 20181120125411
+79.24.202.100 1 1 21735 20181106040302
+18.223.239.51 31 31 179758 20181119024448
+220.243.136.109 1 1 6476 20181124003916
+94.236.230.250 1 1 21735 20181107150633
+201.87.75.207 1 1 21735 20181126132333
+41.221.158.34 1 1 21735 20181116124342
+140.86.49.24 1 1 21735 20181122160337
+37.139.26.6 1 1 21735 20181108195430
+220.243.135.134 2 2 151052 20181120040738
+220.243.136.164 0 9 246120 
+220.243.136.175 1 1 4945 20181105175652
+182.200.3.235 1 1 5862 20181119170439
+18.222.251.156 12 12 69123 20181119204448
+189.78.49.239 2 2 43470 20181129122214
+18.222.207.230 24 24 139333 20181119224452
+121.57.10.236 1 1 5867 20181121084917
+115.198.202.197 1 1 5869 20181123154434
+94.232.38.191 1 1 21735 20181126182544
+189.68.98.13 1 1 21735 20181101091315
+178.156.82.120 1 1 21735 20181126081950
+151.243.29.197 1 1 21735 20181108194748
+201.150.148.92 1 1 21735 20181121194806
+18.224.140.245 2 2 11597 20181130121132
+187.57.130.215 1 1 21735 20181104053445
+40.77.193.91 0 1 184 
+191.97.32.95 1 1 21735 20181124032540
+109.242.209.208 1 1 21735 20181124163051
+78.84.134.236 1 1 21735 20181103173128
+191.32.241.183 4 36 1547423 20181118194808
+187.11.126.164 1 1 21735 20181115012827
+185.17.133.40 1 1 21735 20181106140007
+109.201.152.24 1 1 434 20181116211552
+207.102.138.158 3 24 428192 20181105233946
+41.75.65.27 1 1 21735 20181122144319
+201.13.0.23 1 1 21735 20181123001805
+201.13.53.156 1 1 21735 20181106022227
+220.243.136.135 2 2 151052 20181128182844
+5.190.227.162 1 1 21735 20181112115906
+77.233.220.80 1 1 21735 20181101130626
+201.26.18.181 1 1 21735 20181110140238
+191.19.50.188 1 1 21735 20181126091623
+201.95.51.15 1 1 21735 20181116021652
+111.162.143.184 1 1 5868 20181101181934
+220.243.135.64 0 18 441491 
+18.223.172.176 115 115 660012 20181121125424
+184.174.17.99 1 1 5862 20181129083214
+185.232.105.100 1 1 21735 20181109035116
+103.220.213.221 1 1 21735 20181116070054
+103.249.180.94 1 1 21735 20181113053837
+179.98.154.3 1 1 21735 20181106080928
+13.58.109.63 1 1 5740 20181130154034
+187.94.114.24 1 1 21735 20181130180057
+170.245.131.77 1 1 21735 20181130215902
+41.169.55.195 1 1 21735 20181110020350
+185.236.200.12 0 8 246096 
+37.156.126.119 1 1 21735 20181121113030
+123.249.61.137 2 2 45016 20181103235942
+85.185.240.226 1 1 21735 20181107120220
+193.201.224.210 2 2 11601 20181129074123
+177.102.241.106 2 2 43470 20181117030015
+40.77.194.203 0 1 376562 
+86.122.28.241 1 1 21735 20181124195553
+178.236.168.243 1 1 21735 20181127175430
+103.59.132.50 1 1 21735 20181129062727
+18.191.114.91 21 21 121621 20181118164518
+118.25.71.229 1 1 21735 20181111031540
+220.243.136.65 1 5 176963 20181105175654
+220.243.135.42 0 6 16052 
+40.77.193.167 0 1 478550 
+222.88.144.45 2 2 43470 20181106182833
+186.233.102.126 1 1 21735 20181122173653
+18.218.10.23 25 25 145198 20181119194447
+35.173.132.218 2 2 868 20181117114101
+179.98.34.114 2 2 43470 20181114073752
+91.221.178.37 1 1 21735 20181123225121
+186.96.255.37 1 1 21735 20181127031711
+201.148.126.242 1 1 21735 20181128104411
+194.99.105.75 14 17 457745 20181118082430
+192.68.234.3 1 1 21735 20181130152107
+64.62.252.174 3 3 19433 20181123155214
+66.70.203.181 3 30 1520609 20181115210127
+177.55.247.146 1 1 21735 20181105135332
+181.224.255.154 1 1 21735 20181124202712
+18.188.94.118 129 129 740360 20181121102429
+18.224.214.132 6 6 34928 20181117174346
+31.13.115.19 0 6 550096 
+220.243.136.230 1 9 15475 20181112203732
+46.183.221.4 2 2 8520 20181104091029
+81.17.147.154 1 1 21735 20181109232854
+187.110.82.182 1 1 21735 20181114155538
+188.169.40.90 1 1 21735 20181102171203
+103.204.70.45 1 1 21735 20181113231859
+40.77.188.108 0 2 4605 
+220.243.136.190 0 18 34262 
+139.59.180.161 1 1 21735 20181104070742
+18.222.254.149 28 28 162174 20181119044436
+185.100.87.245 1 1 434 20181110123118
+220.243.135.231 0 3 186266 
+220.243.135.183 1 7 20845 20181105175651
+178.253.43.16 1 1 21735 20181110081732
+189.78.81.111 2 2 43470 20181121135200
+116.1.234.182 3 3 2307 20181109073613
+36.84.229.97 1 1 21735 20181109202004
+159.255.152.161 1 1 21735 20181107090258
+220.243.136.57 1 7 65718 20181122162417
+192.141.234.58 1 1 21735 20181115042911
+40.77.189.109 0 1 4769 
+202.166.206.186 1 1 21735 20181104140712
+18.223.185.60 27 27 156309 20181119084431
+201.192.163.246 1 1 21735 20181125051311
+220.243.136.123 0 3 186266 
+40.77.189.72 1 1 80652 20181104031808
+84.133.43.151 7 7 49733 20181126110855
+181.112.32.26 1 1 21735 20181104074924
+220.243.136.84 2 2 10685 20181128182839
+84.22.41.221 1 1 21735 20181116204902
+103.75.35.9 1 1 21735 20181117101845
+5.236.156.56 1 1 21735 20181130235834
+170.238.126.207 2 2 43470 20181126091700
+201.68.50.230 1 1 21735 20181116200312
+191.13.46.200 1 1 21735 20181130060817
+104.248.237.221 1 1 5871 20181114053254
+162.158.68.217 1 1 478 20181104120755
+70.25.78.21 1 1 21735 20181128171759
+220.243.136.214 2 2 151052 20181130140742
+220.243.135.167 1 1 5026 20181112203732
+64.126.140.47 1 1 21735 20181108103521
+18.188.90.138 32 32 185251 20181119221535
+185.215.235.130 1 1 21735 20181113085406
+177.200.107.55 1 1 21735 20181113205642
+168.194.84.31 1 1 21735 20181128215409
+100.24.70.22 2 2 868 20181122140951
+203.202.248.221 1 1 21735 20181106223647
+40.77.252.178 0 2 2366 
+3.16.42.80 36 36 209057 20181115101216
+185.93.207.162 1 1 21735 20181121095124
+220.243.135.18 2 14 79776 20181114073401
+131.108.88.195 1 1 21735 20181110155112
+162.158.64.176 1 1 478 20181119014458
+176.195.81.154 1 1 21735 20181105200624
+91.237.161.59 1 1 21735 20181111123956
+180.101.123.0 1 1 21735 20181122183523
+91.242.162.2 1 1 4946 20181104010642
+185.41.154.122 2 2 36394 20181111232412
+186.225.63.82 1 1 21735 20181109090551
+110.53.240.216 1 1 5865 20181130140850
+220.243.135.205 1 1 5863 20181128182838
+18.222.139.0 7 7 40420 20181119111505
+78.186.71.92 1 1 21735 20181129080451
+103.99.18.101 2 2 35259 20181122133345
+112.66.102.29 1 1 5863 20181130140857
+45.70.215.0 1 1 21735 20181108085936
+117.78.28.110 1 1 21735 20181115140940
+110.137.178.3 1 1 21735 20181115125800
+178.214.255.253 1 1 21735 20181123204054
+40.77.193.11 0 1 116306 
+43.246.140.43 1 1 21735 20181111223155
+35.184.205.215 2 29 445635 20181103152857
+46.72.175.84 1 1 21735 20181110023521
+60.217.72.12 2 2 11742 20181128153902
+54.207.100.115 1 1 21735 20181124154140
+220.243.136.77 0 11 66255 
+220.243.136.166 0 8 213466 
+220.243.135.110 1 1 6479 20181117192944
+3.17.61.129 1 1 5861 20181130181115
+110.175.180.242 2 2 43470 20181104164715
+180.179.142.108 1 1 22508 20181117004352
+181.143.0.106 1 1 21735 20181109005646
+198.50.200.129 1 1 5416 20181103201203
+40.77.190.71 0 5 538619 
+18.222.199.103 29 29 168405 20181119231521
+18.188.177.91 24 24 139465 20181120132240
+18.191.244.114 22 22 127742 20181116011128
+103.251.222.178 1 1 21735 20181111114251
+220.243.136.104 2 5 196733 20181112203732
+177.102.119.18 1 1 21735 20181102111837
+201.150.151.125 1 1 21735 20181122185301
+73.251.62.205 3 34 1523761 20181109165810
+18.219.142.57 45 45 258266 20181107121959
+220.243.136.128 0 6 16052 
+220.243.136.63 1 8 67412 20181120040734
+109.254.14.59 2 2 9165 20181101130904
+82.113.63.147 1 1 21735 20181117173005
+187.74.171.157 1 1 21735 20181105113312
+103.73.183.208 1 1 21735 20181117225148
+59.173.153.209 1 1 5863 20181119170439
+5.160.214.181 1 1 21735 20181128080529
+46.166.186.226 1 1 434 20181120181933
+172.104.108.109 2 2 11741 20181115085307
+100.26.48.8 1 1 5872 20181121183221
+36.79.88.207 1 1 21735 20181125072358
+109.254.26.41 1 1 5873 20181119093134
+158.174.103.25 1 1 21735 20181110001141
+185.107.80.173 1 1 5872 20181110131651
+96.30.72.169 1 1 21735 20181118212029
+177.11.138.58 1 1 21735 20181128140932
+189.69.227.31 1 1 21735 20181129181332
+187.74.57.112 1 1 21735 20181119072438
+182.48.100.122 1 1 478 20181114202439
+189.79.113.155 1 1 21735 20181101155653
+173.211.84.16 1 1 5862 20181101104758
+141.105.101.218 1 1 21735 20181117105657
+220.243.136.210 0 6 238817 
+3.8.29.162 3 6 61119 20181118153947
+18.224.18.240 25 25 145560 20181119031406
+195.136.69.249 1 1 21735 20181112143327
+40.77.192.187 0 1 32654 
+79.107.180.104 1 1 21735 20181110155538
+18.218.140.102 7 7 40175 20181130235224
+189.78.192.138 1 1 21735 20181126064903
+189.110.169.5 2 2 43470 20181122005132
+150.242.58.34 1 1 21735 20181124000806
+187.102.54.239 1 1 21735 20181115152745
+220.243.136.148 1 7 21791 20181130140735
+82.130.202.203 1 1 21735 20181129061624
+18.223.180.147 24 24 139332 20181118091428
+173.14.228.96 1 1 21735 20181105232353
+39.108.37.196 1 1 21735 20181122175712
+139.81.207.209 1 1 5862 20181122120955
+177.103.102.7 1 1 21735 20181122141348
+64.62.252.176 36 36 200225 20181126095944
+18.219.24.122 9 9 51654 20181130145201
+24.24.168.187 12 109 4644421 20181126185754
+101.255.36.146 1 1 21735 20181107005544
+40.77.253.93 0 1 961 
+131.221.193.25 1 1 21735 20181126030819
+117.50.16.248 5 5 87374 20181115014855
+95.173.224.87 1 1 21735 20181104164509
+180.76.98.101 1 1 5869 20181107070638
+40.77.188.224 0 5 120308 
+201.27.202.6 1 1 21735 20181126001419
+220.93.111.201 1 1 21735 20181121224627
+220.243.136.183 1 1 5864 20181120040731
+220.250.10.215 1 1 5870 20181101181947
+40.77.193.8 0 1 144 
+18.221.39.211 26 26 150685 20181118223636
+37.1.205.52 1 1 5325 20181102182109
+45.5.94.28 1 1 21735 20181106204019
+188.163.0.15 2 2 28695 20181121072128
+40.77.253.16 0 1 3711 
+220.243.136.116 0 6 59854 
+177.91.190.20 1 1 21735 20181105234513
+187.45.116.194 1 1 21735 20181130180239
+81.214.191.56 1 1 21735 20181107100006
+47.75.215.75 5 5 17341 20181122111019
+103.90.205.81 1 1 21735 20181128210425
+178.32.120.230 3 3 65205 20181130114838
+190.186.22.53 1 1 21735 20181115162342
+185.177.242.92 1 1 21735 20181119172544
+40.77.194.43 0 1 1827 
+179.99.32.193 2 2 43470 20181104204221
+107.170.213.221 1 1 5870 20181120062952
+220.243.136.225 1 1 7427 20181117192948
+200.85.50.130 1 1 21735 20181123181115
+198.58.10.13 1 1 21735 20181114095001
+207.248.36.99 1 1 21735 20181110050055
+18.216.244.161 12 12 69357 20181107041200
+41.72.203.6 1 1 21735 20181110133541
+178.137.92.49 16 16 352448 20181126063340
+103.193.116.80 1 1 21735 20181122015603
+220.243.135.130 1 1 5044 20181114073404
+87.126.68.178 4 4 20257 20181101030620
+187.34.143.110 1 1 21735 20181111151944
+18.223.247.156 16 16 92939 20181118171456
+107.170.218.32 1 1 5870 20181101134919
+139.81.156.248 1 1 5863 20181109101653
+181.196.147.190 1 1 21735 20181117103243
+185.100.87.129 1 1 5276 20181102144517
+18.224.183.230 1 1 5860 20181130111304
+220.243.136.4 0 6 9105 
+220.243.135.198 2 2 151052 20181128182844
+178.212.49.155 1 1 21735 20181104093449
+217.117.121.121 1 1 21735 20181116143348
+78.29.246.154 3 34 1523763 20181125002037
+91.242.162.4 1 1 8514 20181128024014
+18.188.175.92 8 8 46156 20181119181519
+220.243.136.193 1 1 5172 20181114073404
+200.28.27.155 1 1 21735 20181109141021
+196.52.43.102 1 1 21936 20181116174452
+220.243.136.47 2 2 10410 20181117192945
+220.243.135.112 1 1 5740 20181122071503
+36.69.200.238 1 1 21735 20181103175603
+185.4.65.44 1 1 21936 20181117225053
+36.75.153.157 1 1 21735 20181114065635
+150.255.35.165 1 1 5865 20181121085036
+5.190.30.122 1 1 21735 20181120152706
+40.77.194.249 1 4 134729 20181106090806
+103.78.12.213 1 1 21735 20181129030512
+185.206.225.162 12 12 170680 20181125031233
+109.201.154.215 1 1 434 20181118004514
+46.166.186.209 1 1 434 20181120223637
+134.249.72.6 6 6 132168 20181130050955
+208.80.194.29 12 12 260820 20181128172031
+104.251.91.53 1 1 5863 20181119071802
+52.14.201.35 2 2 11479 20181130170959
+220.243.135.233 2 2 10028 20181105175649
+23.94.189.15 6 6 3850 20181125051143
+204.13.201.138 0 4 188660 
+89.235.98.114 1 1 21735 20181117132541
+3.17.28.84 1 1 5738 20181130111047
+119.29.159.227 1 1 21936 20181110224343
+103.63.213.38 1 1 5869 20181129220313
+40.77.192.161 0 1 2704 
+18.224.37.142 6 6 35052 20181118074732
+45.120.115.30 1 1 21735 20181120102118
+18.222.40.43 5 5 28942 20181119051411
+60.53.160.211 1 1 21735 20181113224425
+164.52.24.163 1 1 5871 20181105225757
+41.57.104.252 1 1 21735 20181128195159
+220.253.59.8 1 1 21735 20181107215612
+189.18.132.185 1 1 21735 20181113000829
+220.243.136.105 1 6 62019 20181114073358
+64.62.243.163 8 8 148220 20181103175444
+179.99.7.209 1 1 21735 20181104164057
+177.94.237.231 1 1 21735 20181126054327
+213.168.178.203 1 1 21735 20181113194448
+200.159.132.43 1 1 21735 20181110074521
+89.191.156.28 1 1 21735 20181117232842
+88.252.226.141 1 1 21735 20181121061130
+201.49.226.33 1 1 21735 20181107000144
+103.112.253.90 1 1 21735 20181112115906
+220.243.136.156 1 1 4442 20181124003917
+54.245.193.238 1 1 5872 20181101034137
+3.16.187.7 2 2 11599 20181130201629
+3.17.77.122 8 8 45916 20181130155309
+220.243.136.147 1 6 226692 20181128182839
+191.23.82.235 1 1 21735 20181128035117
+46.231.78.104 1 1 21735 20181113214602
+213.81.178.12 1 1 21735 20181105180259
+191.136.226.218 11 11 95353 20181122220142
+130.180.209.126 1 1 21735 20181120220731
+104.244.74.78 1 1 3163 20181103201203
+187.56.237.55 1 1 21735 20181114082515
+13.59.86.83 2 2 11478 20181130230923
+40.77.252.51 0 1 184656 
+177.9.148.241 1 1 21735 20181110124734
+40.112.65.220 1 1 5871 20181118075407
+196.52.43.56 1 1 21936 20181128075327
+51.38.12.21 2 2 43470 20181124183615
+208.80.194.32 7 7 152145 20181127120042
+5.235.234.150 1 1 21735 20181101194152
+69.146.244.126 1 1 21735 20181104183949
+69.59.193.64 1 1 21735 20181101034717
+13.58.1.116 7 7 40174 20181130182055
+66.160.140.187 2 2 12954 20181108205455
+177.91.96.50 1 1 21735 20181120100027
+5.160.213.28 1 1 21735 20181129062001
+120.244.117.143 1 1 4049 20181128091044
+178.93.58.197 1 1 21735 20181130221718
+193.178.187.7 3 34 1523761 20181126173858
+106.75.2.81 2 2 44243 20181121064534
+107.170.211.4 1 1 5872 20181117062039
+125.80.134.31 1 1 22508 20181105070309
+40.77.194.14 1 1 106620 20181106090808
+40.77.194.231 0 1 116306 
+40.77.194.217 0 1 49338 
+40.77.192.48 0 1 5159 
+40.77.192.5 0 1 37306 
+201.87.235.221 1 1 21735 20181113130850
+77.236.65.91 1 1 21735 20181103195004
+103.229.87.6 1 1 21735 20181110192629
+94.232.79.255 1 1 21735 20181115115451
+179.247.179.195 1 1 21735 20181101043355
+203.76.119.214 1 1 21735 20181101075042
+58.19.92.95 1 1 5866 20181119170433
+60.217.72.16 1 1 478 20181114214307
+165.16.43.66 1 1 21735 20181111204639
+186.50.16.245 1 1 21735 20181112110842
+212.33.214.97 1 1 21735 20181121105200
+190.186.36.140 1 1 21735 20181103082744
+220.243.136.40 0 11 23341 
+3.17.68.76 1 1 5860 20181130234409
+162.243.167.137 2 2 6339 20181119215155
+18.188.109.27 10 10 57889 20181120132807
+18.225.5.43 5 5 29071 20181119141538
+185.228.80.33 1 1 21735 20181107191305
+119.40.83.210 1 1 21735 20181126213727
+78.134.157.196 1 1 21735 20181124054136
+220.243.136.24 0 6 59854 
+110.170.40.252 1 1 21735 20181125144919
+220.243.136.172 0 6 16052 
+186.236.30.84 1 1 21735 20181125225140
+46.166.137.209 1 1 434 20181120125320
+185.108.19.199 1 1 21735 20181113115344
+220.243.136.127 1 11 193408 20181121084917
+54.153.78.51 1 1 5872 20181105043939
+91.186.195.249 1 1 21735 20181127141636
+51.68.154.199 2 2 43872 20181120111334
+138.0.188.126 1 1 21735 20181116005940
+79.106.160.222 1 1 21735 20181128223113
+168.232.12.174 1 1 21735 20181116191352
+51.38.126.172 1 1 5873 20181125210408
+80.76.229.142 1 1 21735 20181115153446
+47.74.247.43 1 1 21735 20181123153908
+73.72.39.85 1 1 21735 20181127170236
+177.144.182.176 1 1 21735 20181110015103
+18.222.143.109 31 31 180121 20181119144514
+94.177.170.99 1 1 21936 20181118025552
+13.59.120.162 2 2 11723 20181130231442
+66.220.149.35 1 8 33099 20181109134810
+40.77.189.13 1 2 107129 20181102044016
+154.47.128.30 1 1 21735 20181101150424
+177.53.3.51 1 1 21735 20181127213502
+187.74.45.74 1 1 21735 20181125181429
+18.217.34.193 27 27 157175 20181119164529
+178.210.68.186 1 1 21936 20181129082222
+201.13.8.70 2 2 43470 20181115223438
+186.1.214.82 1 1 4056 20181104221625
+66.160.140.182 21 21 125362 20181129180739
+91.109.147.137 1 1 21735 20181106112650
+18.222.238.207 30 30 174141 20181119094540
+180.95.227.95 1 1 5864 20181121085035
+139.60.177.197 1 1 21735 20181106015518
+185.95.187.56 1 1 21735 20181114011340
+40.77.194.223 0 2 511204 
+187.102.51.223 1 1 21735 20181114212551
+220.243.136.235 0 6 16052 
+93.78.194.100 1 1 21735 20181115030128
+135.23.221.142 2 2 22370 20181112174633
+184.175.219.108 1 1 5935 20181107004607
+94.74.64.243 13 107 3522547 20181114191358
+52.14.43.100 127 127 728875 20181121112426
+36.84.230.169 1 1 21735 20181119030030
+62.4.14.206 1 1 21735 20181118124932
+185.66.230.193 1 1 21735 20181105220716
+212.8.111.51 1 1 21735 20181109000614
+18.221.154.126 1 1 5740 20181130141130
+220.243.136.45 2 2 9657 20181117192947
+179.111.89.247 2 2 43470 20181127060653
+152.254.130.188 2 2 43470 20181116162215
+149.255.238.28 1 1 21735 20181108201648
+197.255.189.85 1 1 21735 20181118013733
+18.223.115.234 30 30 174139 20181119191521
+162.158.64.107 1 1 478 20181119014521
+198.108.66.176 1 1 5872 20181103110614
+177.152.64.12 1 1 21735 20181124115623
+47.96.20.52 1 1 21735 20181123234020
+145.255.11.248 1 1 21735 20181120195644
+3.16.29.93 11 11 63983 20181118204448
+220.243.136.115 1 1 7426 20181114073357
+178.137.18.239 7 7 154196 20181130153718
+71.59.75.185 1 1 21735 20181129043243
+193.56.28.128 2 2 11738 20181106225038
+61.14.229.198 1 1 21735 20181128234819
+220.243.135.170 1 1 5863 20181105175649
+5.190.94.173 1 1 21735 20181115115428
+192.64.195.158 1 1 21735 20181129082438
+220.243.136.204 2 2 12215 20181122113944
+59.110.237.76 1 1 21735 20181123064716
+220.243.136.78 2 2 151052 20181105175658
+18.221.193.240 1 1 5871 20181128214856
+122.228.10.51 1 1 21735 20181102111958
+35.229.112.171 1 1 21735 20181124101341
+138.36.20.34 1 1 21735 20181118010339
+220.243.136.211 1 1 5865 20181130140735
+59.94.42.206 1 1 21735 20181130072809
+220.243.135.14 0 6 59854 
+180.246.1.228 1 1 21735 20181128231345
+67.137.36.66 1 1 5872 20181113225805
+185.103.110.206 10 10 142212 20181114061244
+177.188.220.109 1 1 21735 20181113055201
+109.201.154.243 1 1 434 20181117130440
+106.91.211.152 1 1 21788 20181121084918
+115.178.97.190 1 1 21735 20181101084412
+185.61.138.15 1 1 434 20181112081834
+5.57.224.181 1 1 21735 20181121203213
+181.196.246.202 1 1 21735 20181116164247
+208.80.194.30 10 10 217350 20181129191435
+34.208.235.9 1 1 21735 20181113223821
+212.83.152.39 1 1 21735 20181122055418
+168.227.109.27 1 1 21735 20181128101038
+185.212.131.109 46 46 228316 20181117121759
+110.235.210.53 1 1 21735 20181106031445
+40.77.189.23 0 3 226731 
+18.217.252.244 1 1 5862 20181130141103
+185.28.141.48 1 1 21735 20181104131114
+2.249.12.82 1 1 21735 20181127172519
+109.229.197.177 1 1 21735 20181108180709
+191.97.40.37 1 1 21735 20181113110402
+18.219.132.167 5 5 28693 20181130195137
+124.88.64.208 1 1 5867 20181101181947
+220.243.136.9 1 1 5739 20181126101516
+200.207.24.198 1 1 21735 20181102015800
+178.175.135.100 1 1 5361 20181119050023
+46.29.172.253 1 1 21735 20181123085049
+189.152.96.217 1 1 21735 20181107202329
+162.158.64.102 1 1 478 20181104120623
+183.87.100.10 1 1 21735 20181121160317
+201.1.59.173 1 1 21735 20181115194959
+124.41.213.116 1 1 21735 20181104032554
+189.69.149.249 1 1 21735 20181103004508
+182.75.3.170 1 1 21735 20181120065234
+220.243.136.177 1 1 5862 20181121084915
+18.224.135.194 35 35 202954 20181117154336
+220.243.136.131 1 6 14749 20181107003552
+95.142.137.240 1 1 21735 20181119183642
+31.184.195.108 3 3 65808 20181126191514
+85.218.22.115 7 7 49729 20181111142747
+40.77.190.108 0 3 7682 
+78.166.133.57 1 1 21735 20181129000430
+212.107.229.175 1 1 21735 20181105100513
+80.211.226.223 1 1 21735 20181127074146
+220.243.135.45 1 1 4897 20181117192945
+191.193.30.162 1 1 21735 20181123153855
+185.236.200.9 3 16 467468 20181114010321
+54.149.124.148 1 1 5870 20181119064431
+158.69.225.34 15 15 297152 20181121220755
+93.126.24.75 1 1 21735 20181128071221
+220.243.135.52 3 3 156523 20181114073403
+45.248.86.85 1 1 5872 20181118023354
+178.62.82.141 6 6 36408 20181106093659
+220.243.135.22 1 1 4898 20181130140734
+80.78.68.75 1 1 21735 20181129171947
+40.77.189.152 0 1 1827 
+208.87.233.140 1 7 378400 20181113213644
+18.221.207.86 1 1 5860 20181130164550
+18.225.32.114 8 8 46525 20181119184450
+220.243.136.154 2 2 151052 20181130140743
+52.15.50.98 2 2 11477 20181130214349
+220.243.136.12 0 9 246120 
+128.177.10.102 1 1 22028 20181110233808
+220.243.135.131 1 1 6475 20181107003552
+118.179.6.254 1 1 21735 20181126224616
+202.28.24.84 1 1 21735 20181122083659
+41.250.2.255 2 2 44536 20181119230350
+220.243.135.189 2 5 337318 20181105175658
+18.217.89.105 34 34 197230 20181118151413
+185.217.162.2 1 1 21735 20181114100937
+41.60.233.128 1 1 21735 20181113104031
+103.24.21.78 1 1 21735 20181107043208
+34.227.28.217 1 1 22508 20181111150619
+31.13.115.8 2 11 426485 20181120125408
+201.68.174.200 1 1 21735 20181107221831
+187.34.28.149 1 1 21735 20181126042108
+40.77.192.202 0 1 16031 
+220.243.136.119 2 2 151052 20181128182845
+18.191.153.236 1 1 5741 20181130234202
+45.238.204.3 1 1 21735 20181106224414
+18.222.172.93 1 1 5862 20181130171506
+179.98.55.49 1 1 21735 20181125152329
+3.16.83.119 12 12 68876 20181130225044
+3.16.165.99 2 2 11603 20181130214431
+83.148.233.7 2 2 43470 20181129071524
+41.164.159.34 1 1 21735 20181111213122
+93.126.29.38 1 1 21735 20181118174854
+186.225.70.46 1 1 21735 20181111051006
+220.243.136.167 0 5 7289 
+181.198.36.122 1 1 21735 20181104230536
+78.158.171.90 1 1 21735 20181123143802
+185.129.126.16 1 1 21735 20181119194855
+91.242.162.34 8 8 41508 20181106090936
+3.17.23.107 1 1 5738 20181130181152
+62.133.175.20 1 1 21735 20181122035504
+177.45.189.12 1 1 21735 20181117142158
+191.36.148.16 1 1 21735 20181106232226
+3.16.37.55 14 14 80845 20181118184442
+40.77.194.92 0 1 22107 
+187.75.23.144 2 2 43470 20181125065015
+201.103.47.185 1 1 21735 20181120080828
+2.179.181.244 1 1 21735 20181104164417
+182.140.168.125 1 1 21735 20181114225444
+159.226.20.33 1 1 21735 20181121235756
+93.171.243.104 1 1 21735 20181130222120
+162.158.68.213 1 1 478 20181126100545
+220.243.136.112 1 7 13679 20181105175652
+31.13.115.5 0 4 62155 
+37.128.171.204 1 1 21735 20181106040256
+177.84.41.201 1 1 21735 20181112161107
+201.27.200.23 1 1 21735 20181115012126
+220.243.136.59 0 3 168787 
+208.80.194.28 2 2 43470 20181130133208
+13.71.85.0 1 1 5872 20181115213305
+3.16.162.51 1 1 5863 20181130151119
+45.32.64.63 6 6 4614 20181102165755
+93.126.29.244 1 1 21735 20181112171444
+40.77.188.188 0 1 14512 
+211.149.147.186 31 31 250492 20181105014707
+204.13.201.137 0 1 116306 
+18.220.209.234 29 29 168161 20181119154524
+18.224.96.63 11 11 63862 20181109011141
+52.15.34.116 27 27 156925 20181118234425
+35.153.70.178 2 2 868 20181106191312
+18.221.68.148 26 26 150679 20181119064444
+191.19.38.76 1 1 21735 20181127174243
+62.210.251.40 4 4 45310 20181116110234
+176.97.242.215 1 1 21735 20181101023609
+195.154.61.206 2 2 88280 20181119204029
+103.43.6.20 1 1 21735 20181119054631
+202.1.198.173 1 1 21735 20181128113130
+18.217.225.36 2 2 11602 20181130121220
+220.243.135.31 2 2 151052 20181112203740
+129.157.129.158 1 1 21735 20181123174959
+5.160.151.14 1 1 21735 20181111221333
+116.252.2.25 1 1 5862 20181119170444
+220.243.136.73 2 7 67110 20181120040732
+106.120.41.87 1 1 5866 20181119170442
+40.77.193.205 0 1 184656 
+3.16.24.8 9 9 51904 20181119054515
+189.45.79.172 1 1 21735 20181106032735
+46.166.188.249 1 1 434 20181116101045
+200.0.57.221 1 1 21735 20181129223932
+46.166.190.155 1 1 5863 20181116101051
+220.243.136.75 1 13 30896 20181105175650
+155.94.165.55 4 4 18319 20181128065718
+40.77.194.154 0 1 3711 
+46.166.137.202 1 1 5865 20181119214513
+220.243.136.60 2 2 151052 20181114073408
+138.121.128.146 1 1 21735 20181107125344
+185.37.160.27 1 1 21735 20181108001411
+162.158.64.233 1 1 478 20181111195205
+186.248.97.226 1 1 21735 20181125013301
+104.131.156.155 33 33 284541 20181107201133
+95.37.189.184 1 1 5873 20181106115829
+106.75.85.103 2 2 43872 20181121191057
+124.235.138.190 1 1 5863 20181121085028
+185.100.87.177 1 1 5871 20181119182243
+66.220.149.12 0 4 304824 
+220.243.136.136 1 1 5297 20181105175653
+162.158.65.23 1 1 478 20181126100710
+190.152.223.222 1 1 21735 20181102122806
+52.14.98.62 30 30 174030 20181119235308
+167.114.157.79 13 13 258674 20181106165840
+147.135.4.70 1 1 5864 20181110034220
+3.16.158.5 7 7 40426 20181119231503
+18.221.249.123 26 26 150455 20181121095522
+40.77.253.138 0 1 5428 
+18.188.231.73 9 9 52148 20181119074700
+189.79.93.84 1 1 21735 20181120061107
+138.97.43.18 1 1 21735 20181120235837
+189.19.160.140 1 1 21735 20181120052515
+40.77.192.49 0 1 4769 
+195.80.167.230 1 1 21735 20181112174906
+177.45.205.196 1 1 21735 20181124133433
+220.243.136.192 1 1 4533 20181112203731
+18.191.158.160 2 2 11478 20181130163919
+185.112.82.231 126 126 1791964 20181108210209
+132.145.42.37 1 1 21735 20181126121309
+40.77.193.173 0 1 564 
+152.249.29.146 1 1 21735 20181107014300
+220.243.135.190 0 12 25157 
+40.77.189.118 1 5 504762 20181104031808
+190.217.118.226 1 1 21735 20181116130534
+18.217.120.202 24 24 138972 20181119171542
+40.77.192.122 0 2 1381 
+185.215.233.42 1 1 21735 20181103190940
+177.84.90.111 1 1 21735 20181111062216
+122.228.19.80 1 1 21735 20181124123048
+79.3.133.195 1 1 21735 20181118132438
+200.25.239.231 1 1 21735 20181121181412
+123.252.248.116 1 1 21735 20181101043304
+91.242.162.1 1 1 5739 20181108230633
+203.133.171.13 2 8 383338 20181110060736
+31.24.204.47 1 1 21735 20181102091717
+54.90.242.209 2 2 6873 20181121173044
+129.157.129.30 1 1 21735 20181125175922
+31.13.115.10 0 4 24078 
+201.93.76.53 1 1 21735 20181107042058
+85.140.36.147 1 1 21735 20181116205015
+185.138.122.22 1 1 21735 20181128155510
+103.123.86.213 1 1 21735 20181125185802
+190.29.108.182 1 1 21735 20181114140712
+111.220.102.236 1 1 21735 20181128074213
+220.243.136.110 3 3 156523 20181117192944
+162.158.69.15 1 1 478 20181111195226
+222.82.53.6 1 1 5872 20181123154456
+220.243.136.7 2 2 151052 20181126101522
+46.12.174.169 1 1 21735 20181122191141
+18.222.69.217 15 15 87194 20181119211509
+81.166.157.178 1 1 21735 20181121175008
+112.5.243.158 1 1 5866 20181124102310
+5.149.157.44 1 1 21735 20181116224235
+66.160.140.183 1 1 6475 20181118154627
+221.13.133.2 2 2 43470 20181122180125
+18.221.174.210 20 20 115892 20181121095657
+18.191.230.117 26 26 150190 20181119181441
+109.201.154.216 1 1 434 20181118104146
+18.224.59.51 18 18 103303 20181130232109
+18.191.84.64 28 28 162905 20181118104401
+35.239.67.86 2 31 453389 20181103160132
+121.100.23.250 1 1 21735 20181118205520
+109.70.100.19 2 2 8518 20181119160828
+198.108.66.32 2 2 11743 20181121025938
+220.243.136.246 2 2 12131 20181117192945
+187.110.210.157 1 1 21735 20181125032212
+109.73.185.208 1 1 21735 20181112084014
+103.215.241.86 1 1 22028 20181125120217
+202.131.229.114 1 1 21735 20181125131436
+220.243.135.41 1 1 5865 20181112203732
+18.220.61.112 21 21 121882 20181119061443
+109.225.153.194 1 1 21735 20181115023524
+71.6.232.4 4 4 23486 20181128061109
+183.184.30.89 1 1 21788 20181101181937
+40.77.192.141 0 1 550 
+191.254.204.54 1 1 21735 20181128074221
+189.97.88.155 1 1 21735 20181119174256
+86.122.192.8 1 1 21735 20181107153327
+220.243.136.48 1 1 5862 20181121122230
+111.125.137.98 1 1 21735 20181113223855
+88.242.101.77 1 1 21735 20181112051220
+195.175.203.2 4 35 1530029 20181120150642
+177.25.91.188 1 1 21735 20181125191452
+71.6.202.204 6 6 35227 20181128142820
+103.79.156.32 1 1 21735 20181120233829
+85.98.242.25 1 1 21735 20181130164232
+179.98.168.39 1 1 21735 20181105142004
+189.127.244.238 1 1 21735 20181114060703
+220.243.136.176 0 12 68959 
+36.89.113.49 1 1 21735 20181121115221
+18.222.34.244 37 37 214307 20181119221509
+18.223.156.199 32 32 185243 20181119161517
+76.214.145.204 1 1 21735 20181117172009
+124.204.42.34 1 1 21735 20181122023426
+66.220.149.40 0 5 544233 
+109.167.148.85 1 1 21735 20181102084531
+46.166.137.195 1 1 434 20181119214506
+185.236.200.11 0 7 162979 
+82.117.229.143 1 1 21735 20181112045805
+220.243.136.67 1 7 14966 20181114073403
+171.91.157.247 1 1 5873 20181120234017
+103.100.132.246 1 1 21735 20181111014618
+158.195.40.153 1 1 21735 20181129142521
+220.243.135.199 1 1 4590 20181105175653
+188.166.116.151 2 2 11601 20181126102713
+66.220.149.31 2 2 151052 20181109134816
+122.166.181.63 1 1 21735 20181113100956
+217.60.104.46 2 2 43470 20181118052407
+218.241.251.155 1 1 21735 20181127041844
+223.72.192.30 1 1 21735 20181125040540
+61.6.230.235 1 1 5738 20181117174144
+120.27.224.146 1 1 21735 20181123001534
+81.189.10.194 2 2 43470 20181126144316
+201.159.115.211 1 1 21735 20181130112645
+186.227.220.34 1 1 21735 20181115013328
+177.103.109.115 1 1 21735 20181105012806
+109.161.42.244 1 1 21735 20181109192601
+190.151.203.45 1 1 21735 20181117035652
+193.227.184.245 1 1 21735 20181121055451
+35.188.62.129 2 31 776664 20181103163419
+2.181.14.236 1 1 21735 20181114214902
+139.162.106.181 6 6 130410 20181127214745
+37.221.254.7 1 1 4057 20181107195307
+177.101.232.122 1 1 21735 20181122113628
+179.60.84.9 1 1 21735 20181126180455
+171.33.235.42 1 1 21735 20181123215850
+220.243.136.191 0 5 7289 
+220.243.136.87 2 6 322543 20181114073409
+18.217.24.3 30 30 174388 20181119061452
+18.220.11.248 12 12 69720 20181119234826
+178.211.44.83 3 33 1521614 20181117044827
+185.103.110.209 38 38 540428 20181111044946
+13.58.90.30 1 1 5741 20181130131053
+188.232.215.250 1 1 21735 20181110194612
+18.220.65.247 30 30 174142 20181119124518
+209.97.162.136 1 1 21735 20181111223425
+64.62.252.173 1 1 6476 20181123115706
+152.249.159.243 1 1 21735 20181129084613
+217.211.104.161 1 1 21735 20181108122843
+40.77.192.78 0 1 961 
+159.203.81.93 1 1 5737 20181117004354
+69.171.251.7 0 1 1182 
+191.254.24.9 1 1 21735 20181101023404
+189.110.159.208 2 2 43470 20181107155125
+200.1.181.109 1 1 21735 20181118103552
+200.1.217.68 1 1 21735 20181126005732
+187.189.210.137 1 1 21735 20181107204838
+185.236.200.14 2 14 580631 20181114010312
+178.239.149.205 1 1 21735 20181122203021
+201.1.191.251 1 1 21735 20181126140819
+66.220.149.34 0 3 9379 
+18.223.195.193 31 31 180127 20181120022126
+18.217.93.231 1 1 5862 20181130201616
+46.118.224.118 6 6 132168 20181126075437
+196.52.43.91 1 1 21936 20181113050008
+18.191.249.91 1 1 5863 20181130153918
+165.16.37.197 1 1 21735 20181117040157
+177.138.150.12 1 1 21735 20181112155905
+109.94.117.95 1 1 21735 20181112171746
+131.0.95.234 1 1 21735 20181101015843
+77.243.24.20 1 1 21735 20181103151025
+177.84.41.105 1 1 21735 20181130190301
+220.243.136.18 1 1 5866 20181114073402
+91.242.162.3 4 4 25596 20181106233713
+185.198.164.94 1 1 5327 20181130042249
+64.62.252.163 22 22 120399 20181125152958
+176.218.85.80 1 1 21735 20181106005615
+18.224.212.83 30 30 173902 20181119161530
+187.163.48.199 1 1 21735 20181130115417
+220.243.136.240 2 2 151052 20181105175700
+18.218.79.145 28 28 162915 20181119214502
+154.47.128.39 1 1 21735 20181102012252
+189.125.2.234 1 1 21735 20181125064415
+46.143.70.135 1 1 21735 20181112214345
+104.130.222.231 1 1 21735 20181101091306
+177.38.1.48 1 1 21735 20181118142017
+189.18.66.201 1 1 21735 20181106141143
+18.216.20.127 29 29 168536 20181119101506
+40.77.192.244 0 1 14512 
+179.228.140.53 1 1 21735 20181128232528
+40.77.189.78 0 1 49338 
+178.158.238.139 1 1 5871 20181123160117
+220.243.135.210 2 2 11373 20181128182838
+103.101.107.119 1 1 21735 20181128030027
+95.173.240.82 1 1 21735 20181110074319
+204.13.201.139 0 1 37306 
+220.243.136.62 1 1 4982 20181112203733
+66.220.149.7 0 4 60304 
+189.89.22.177 1 1 21735 20181127170919
+189.46.143.112 3 3 65205 20181125022616
+220.243.135.239 0 12 68959 
+93.124.83.83 1 1 21735 20181120083654
+18.216.19.83 31 31 180246 20181118051435
+177.95.86.26 1 1 21735 20181101165311
+200.232.188.23 1 1 21735 20181125032109
+194.40.242.37 6 7 174691 20181107192402
+151.80.134.148 7 7 49729 20181113192046
+167.99.211.55 1 1 5861 20181119072408
+34.201.68.142 1 1 5862 20181101003208
+201.158.24.37 1 1 21735 20181104010759
+190.204.152.121 1 1 21735 20181130210747
+178.236.120.25 1 1 21735 20181104012805
+197.50.151.38 1 1 21735 20181108205906
+177.189.91.30 1 1 21735 20181117174352
+124.130.153.13 1 1 21735 20181119080737
+201.222.31.158 3 3 65205 20181129233425
+189.18.40.57 1 1 21735 20181122005737
+125.212.217.215 1 1 21735 20181107184316
+80.181.66.176 1 1 21735 20181115151608
+40.77.193.228 0 1 5428 
+220.243.136.120 0 6 16052 
+178.93.56.130 1 1 21735 20181114123543
+185.234.219.228 1 1 5868 20181129064930
+18.188.175.209 20 20 116382 20181119114523
+187.75.37.19 1 1 21735 20181102000104
+62.102.148.67 2 2 8541 20181101122049
+187.207.240.128 1 1 21735 20181119000006
+177.11.92.78 1 1 21735 20181106014541
+77.157.29.203 1 1 21735 20181127064717
+189.78.235.224 1 1 21735 20181117211149
+173.206.21.194 1 1 21735 20181102100813
+94.102.49.193 1 1 21735 20181113195841
+220.243.136.168 0 3 186266 
+188.233.89.243 1 1 21735 20181108053049
+185.34.194.157 1 1 21936 20181129082342
+78.165.113.161 1 1 21735 20181127051436
+220.243.136.41 1 1 5121 20181112203732
+196.52.43.122 1 1 21936 20181103010040
+64.126.175.210 1 1 21735 20181112020246
+54.172.38.70 2 2 868 20181118075227
+177.94.116.73 1 1 21735 20181116103542
+195.138.85.184 1 1 21735 20181102000946
+200.83.156.148 10 72 2450064 20181116203247
+109.201.154.181 1 1 434 20181116141407
+177.68.189.179 1 1 21735 20181106185653
+40.77.193.170 0 1 3733 
+18.222.189.7 8 8 46526 20181119184525
+220.243.135.89 1 1 4440 20181112203733
+185.123.233.4 1 1 21735 20181109095944
+220.243.135.4 1 1 6266 20181114073403
+182.73.206.118 1 1 21735 20181105091733
+103.219.143.77 1 1 21735 20181115155333
+189.46.244.124 1 1 21735 20181119165859
+80.82.70.118 3 3 65808 20181119200427
+177.102.248.217 1 1 21735 20181123101059
+18.188.71.197 1 1 5862 20181130133958
+34.220.48.216 1 1 21735 20181114235841
+220.243.136.252 1 6 244783 20181105175656
+185.236.200.13 0 4 32122 
+187.108.71.122 1 1 21735 20181118170144
+179.225.147.46 2 2 43470 20181121002633
+18.218.156.196 23 23 132985 20181119171500
+173.212.240.51 1 1 21936 20181128153943
+69.243.157.208 4 36 1547429 20181118015847
+177.130.245.201 1 1 21735 20181111180831
+216.150.149.68 1 1 21735 20181122074932
+99.118.115.186 1 1 21735 20181112124412
+220.243.136.52 0 6 16052 
+31.184.238.11 1 1 20929 20181126180233
+178.212.92.69 1 1 21735 20181110084913
+220.243.135.12 1 4 174528 20181114073357
+109.73.187.200 1 1 21735 20181117060344
+109.70.205.149 1 1 21735 20181130225731
+139.81.108.68 1 1 5862 20181115054623
+47.92.25.8 1 1 21735 20181118025839
+123.232.227.39 1 1 5869 20181130140741
+18.188.113.117 25 25 144829 20181119224451
+40.77.193.224 1 2 111389 20181108024545
+220.243.135.138 1 1 5468 20181114073357
+187.75.233.180 1 1 21735 20181105203500
+201.42.8.80 1 1 21735 20181128035157
+171.12.10.29 1 1 5863 20181101181942
+122.152.210.249 1 1 21735 20181115051632
+208.80.194.35 2 2 43470 20181129123825
+91.203.146.90 1 1 21735 20181116230920
+181.160.216.209 1 1 21735 20181109022737
+191.19.19.78 1 1 21735 20181130221945
+128.201.101.14 1 1 21735 20181121003552
+93.174.95.106 1 1 21735 20181114234928
+196.52.43.130 1 1 21936 20181109021033
+66.70.157.189 28 382 7640590 20181115205431
+112.5.243.144 2 2 11603 20181112015421
+71.6.167.142 1 1 21735 20181103065609
+66.160.140.180 1 1 5738 20181104144337
+177.68.104.201 1 1 21735 20181130225524
+185.242.6.3 31 37 933114 20181129223646
+195.8.40.82 1 1 21735 20181123234943
+103.47.217.20 1 1 21735 20181102125405
+40.77.253.94 0 1 872 
+188.136.239.220 2 2 43470 20181106023257
+91.231.40.239 1 1 21735 20181104061822
+220.243.135.251 1 1 5045 20181112203732
+185.7.214.31 2 2 36394 20181106094818
+186.219.251.93 1 1 21735 20181110034704
+94.102.57.141 2 2 868 20181124113534
+103.73.183.179 1 1 21735 20181112050228
+40.77.193.234 0 1 5159 
+220.243.136.96 1 1 5173 20181117192941
+31.179.251.108 1 1 21735 20181113130448
+220.243.136.89 1 1 5741 20181112203733
+94.183.200.123 1 1 21735 20181115065712
+36.66.165.126 1 1 21735 20181127074202
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20181101 225 259 3394057 185
+20181102 180 221 3188760 148
+20181103 111 329 5083971 79
+20181104 297 324 3637465 87
+20181105 266 350 3619323 154
+20181106 247 274 3753997 178
+20181107 231 253 2492664 175
+20181108 194 216 2622739 175
+20181109 203 262 4651349 170
+20181110 212 281 5186039 180
+20181111 752 752 5890900 169
+20181112 222 285 2938217 187
+20181113 210 214 2118659 177
+20181114 294 536 11136626 192
+20181115 480 862 13559885 184
+20181116 230 293 4749303 168
+20181117 261 291 4237707 185
+20181118 206 273 5012752 159
+20181119 188 197 2065391 169
+20181120 173 302 6606024 95
+20181121 163 209 3294158 88
+20181122 118 123 1976704 56
+20181123 133 161 2778142 59
+20181124 104 109 1921531 47
+20181125 165 204 4393082 52
+20181126 138 227 5652186 56
+20181127 112 117 2172409 51
+20181128 155 225 3976082 69
+20181129 148 182 3696939 82
+20181130 190 235 3140116 133
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 39
+5mn-15mn 8
+2mn-5mn 8
+30s-2mn 20
+15mn-30mn 80
+0s-30s 3593
+30mn-1h 161
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 36
+/ 4767 45666806 3474 3452
+/myadmin/index.php 795 6032702 4 6
+/user/login 492 6795326 243 246
+/sites/all/themes/venture_theme/font/MuseoSansCyrl-500.otf 67 7143540 12 30
+/user/password 66 777164 9 5
+/user/ 60 297795 30 30
+/sites/all/themes/venture_theme/font/fontawesome-webfont.woff 42 1866144 15 16
+/content/program-guide 28 180821 18 21
+/xmlrpc.php 24 15824 9 10
+/content/nagorody 23 157459 5 8
+/content/kontakty 10 69549 3 4
+/content/kff-2017 21 157777 6 4
+/content/rules 17 111225 6 5
+/user 13 70030 8 9
+// 20 178421 9 6
+/tags/kff-2017 10 71849 5 4
+/content/pro-nas 15 99025 4 4
+/rss.xml 8 136752 5 2
+/sites/all/themes/venture_theme/font/fontawesome-webfont.eot 2 76410 0 1
+/content/contacts 12 66528 4 4
+/content/rozmishchennya 15 113844 4 4
+/user/login/ 1 14349 1 1
+/node/1 1 4943 0 1
+//user/password 1 4979 1 0
+/content/awards 13 71889 5 3
+/image_captcha 4 11841 0 2
+/content/about 14 72325 3 5
+/myadmin/ 3 9868 0 3
+/content/stroky-ta-umovy 13 122781 2 2
+/node/6 5 68583 3 1
+/content/locations 14 78163 3 3
+/program-guide 20 197011 6 7
+//xmlrpc.php 1 429 1 1
+/sites/all/themes/venture_theme/font/fontawesome-webfont.ttf 3 241956 3 3
+/index.php 7 120276 7 5
+/user/password/ 1 5276 1 1
+END_SIDER

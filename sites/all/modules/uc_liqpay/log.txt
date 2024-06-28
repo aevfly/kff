@@ -1,0 +1,42 @@
+<br/><br/>poststdClass Object
+(
+    [payment_id] => 75250544
+    [transaction_id] => 75250544
+    [status] => sandbox
+    [version] => 3
+    [type] => buy
+    [public_key] => i57556321852
+    [acq_id] => 469584
+    [order_id] => 19
+    [liqpay_order_id] => 4032652u1443626661943520
+    [description] => World International Film Festival1 x Submission and payment 
+    [sender_phone] => 380976345034
+    [amount] => 0.02
+    [currency] => USD
+    [sender_commission] => 0
+    [receiver_commission] => 0
+    [agent_commission] => 0
+    [amount_debit] => 1.32
+    [amount_credit] => 1.32
+    [commission_debit] => 0
+    [commission_credit] => 0.04
+    [currency_debit] => RUB
+    [currency_credit] => RUB
+    [sender_bonus] => 0
+    [amount_bonus] => 0
+)
+<br/><br/>Array
+(
+    [version] => 3
+    [action] => 
+    [order_id] => 19
+    [amount] => 0.02
+    [currency] => USD
+    [description] => World International Film Festival1 x Submission and payment 
+    [status] => sandbox
+    [code] => 
+    [transaction_id] => 75250544
+    [pay_way] => 
+    [sender_phone] => 380976345034
+)
+res

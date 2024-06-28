@@ -1,0 +1,1594 @@
+AWSTATS DATA FILE 7.6 (build 20161204)
+# If you remove this file, all statistics for date 202306 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.kievfilmfestival.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2003                
+POS_TIME 2686                
+POS_VISITOR 29049               
+POS_DAY 46473               
+POS_DOMAIN 3607                
+POS_LOGIN 3841                
+POS_ROBOT 3996                
+POS_WORMS 5720                
+POS_EMAILSENDER 5851                
+POS_EMAILRECEIVER 5994                
+POS_SESSION 47321               
+POS_SIDER 47532               
+POS_FILETYPES 6129                
+POS_DOWNLOADS 6428                
+POS_OS 6523                
+POS_BROWSER 6802                
+POS_SCREENSIZE 9504                
+POS_UNKNOWNREFERER 9578                
+POS_UNKNOWNREFERERBROWSER 9888                
+POS_ORIGIN 10092               
+POS_SEREFERRALS 10238               
+POS_PAGEREFS 10475               
+POS_SEARCHWORDS 11367               
+POS_KEYWORDS 11527               
+POS_MISC 2349                
+POS_ERRORS 11594               
+POS_CLUSTER 3697                
+POS_SIDER_404 11738               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20230701000759 281 105283 9676124070720
+FirstTime 20230601010142
+LastTime 20230630234938
+LastUpdate 20230701043523 281 0 280 0 0
+TotalVisits 653                 
+TotalUnique 371                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 483                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+TotalMisc 0 0 0
+PDFSupport 0 0 0
+AddToFavourites 0 35 0
+DirectorSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+RealPlayerSupport 0 0 0
+JavascriptDisabled 0 0 0
+QuickTimeSupport 0 0 0
+FlashSupport 0 0 0
+JavaEnabled 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 35 123 1332049 88 344 10925353
+1 49 84 5192569 75 285 10882764
+2 41 186 6610367 79 235 7062790
+3 24 34 2645834 34 188 10542519
+4 38 151 8573603 48 187 12237982
+5 32 32 294427 74 301 11281373
+6 45 265 9219765 150 243 10823544
+7 36 148 1839160 47 264 19857451
+8 31 40 501945 41 211 6168092
+9 42 53 2696143 63 316 9450839
+10 44 47 423897 63 269 14157178
+11 35 74 3267546 74 235 4980860
+12 51 125 9514468 82 250 11858418
+13 34 135 6107905 51 197 4739197
+14 102 330 17287799 65 269 17901694
+15 46 130 4192063 68 252 7040615
+16 43 207 9043958 271 509 17521545
+17 54 178 10873499 86 306 16468250
+18 56 208 13949203 116 302 8599029
+19 36 46 634152 59 269 13593651
+20 30 104 8268314 53 342 10021721
+21 43 74 5375997 126 464 12406212
+22 60 433 23540268 53 296 14129923
+23 31 93 5499458 79 342 11993184
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 1038 3300 156884389
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 40
+AhrefsBot/ 1612 145907433 20230630232135 125
+feed 891 21261851 20230626055709 8
+bingbot/ 621 19807705 20230630212451 32
+spider 547 12300451 20230619181221 10
+Googlebot/ 500 4753591 20230630234924 29
+Applebot/ 302 3628714 20230621075233 14
+YandexBot/ 202 1027040 20230630235413 78
+infobot 194 1377183 20230628131502 44
+yeti 133 1261786 20230626015221 20
+baidu 105 6455729 20230628223352 0
+YandexImages/ 3 28795 20230617094615 0
+no_user_agent 67 20358637 20230629041106 0
+Apache\-HttpClient/ 20 119471 20230605113401 0
+Mail\.RU_Bot/ 3 9252 20230613075737 1
+[\s_+:,\.\;\/\\-]bot 3 41179 20230629233317 1
+dataprovider\.com 42 3034301 20230608001028 2
+yandex 23 1245030 20230630235413 0
+Baiduspider/ 20 237296 20230630211414 0
+^mozilla\/5\.0$ 1 5976 20230626025842 0
+Dalvik/ 6 34970 20230618234645 0
+bot[\s_+:,\.\;\/\\-] 94 5720031 20230626044230 6
+Googlebot\-Image/ 17 181774 20230630061631 0
+(firefox/)([0-9]\.|[0-1][0]\.) 6 29940 20230630124105 0
+unknown 41 49461 20230630084321 41
+curl 2 27944 20230616110159 0
+netcraft 1 22875 20230604223937 0
+rome[\x20]client 1 27869 20230622230506 0
+y!j 2 7109 20230628135258 1
+Python\-urllib/ 1 22107 20230605031356 0
+core 3 153514 20230620121003 1
+facebookexternalhit/ 67 12924644 20230629215856 1
+360Spider 6 35819 20230629113247 0
+Screaming[\x20]Frog[\x20]SEO[\x20]Spider/ 1 5970 20230623184901 0
+python 13 130317 20230628142804 7
+DuckDuckGo\-Favicons\-Bot/ 10 38472 20230630174647 0
+oBot/ 44 402839 20230624012102 7
+MojeekBot/ 2 7107 20230615152116 1
+CFNetwork 2 4294 20230630223650 0
+fetcher 2 4294 20230620230125 0
+custo 12 272024 20230630020251 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 12
+css 1299 6069024 0 0
+Unknown 594 9088921 0 0
+otf 54 5757480 0 0
+php 5 1977 0 0
+js 239 13963622 0 0
+jpg 488 111927139 0 0
+xml 11 2953148 0 0
+txt 3 75179 0 0
+png 220 1996409 0 0
+gif 13 19225 0 0
+woff 49 2177168 0 0
+html 325 2855097 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 2
+/CHANGELOG.txt 2 0 68648
+/INSTALL.txt 1 0 6531
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 16
+macosx7 1 0
+linuxandroid 290 52
+macosx10 2 2
+win10 1339 533
+win8.1 15 15
+macosx11 5 5
+win8 3 3
+macosx 1027 166
+Unknown 107 65
+win7 130 54
+unix 2 2
+linux 78 60
+winxp 4 4
+macosx9 23 23
+ios_iphone 273 53
+win2003 1 1
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 126
+chrome68.0.3440.106 9 9
+chrome17.0.963.56 1 0
+chrome91.0.4472.114 368 28
+firefox111.0 11 11
+opera89.0.4447.51 6 6
+safari15.5 1 1
+chrome2.0.172.8 1 1
+firefox57.0 2 2
+firefox66.0 1 1
+chrome86.0.4240.198 2 1
+chrome110.0.5481.154 34 3
+chrome4.0.223.3 1 1
+edge13 6 5
+chrome100.0.4896.82 2 2
+chrome103.0.5060.66 5 5
+chrome53.0.2785.49 2 2
+chrome90.0.4430.61 33 3
+firefox68.0 1 1
+chrome100.0.4896.60 2 2
+firefox103.0 1 1
+chrome96.0.4664.45 31 3
+safari11.0 72 9
+chrome49.0.2623.112 14 3
+chrome5.0.375.99 1 1
+firefox73.0 1 1
+chrome48.0.2735.71 1 1
+chrome81.0.4044.138 3 3
+opera53.0.2907.99 3 3
+netscape5.0 2 2
+chrome99.0.4844.83 2 2
+firefox72.0 9 0
+chrome57.0.2987.132 2 2
+chrome61.0.3163.128 1 1
+chrome83.0.4103.61 2 2
+chrome99.0.4844.51 18 2
+Unknown 105 64
+safari16.5 33 5
+firefox17.0 1 1
+chrome37.0.2049.0 1 1
+iphone 36 4
+chrome46.0.6927.1334 1 1
+firefox102.0 12 12
+chrome109.0.0.0 34 3
+chrome81.0.4044.129 4 4
+chrome113.0.5672.162 34 4
+safari16.3 35 4
+chrome47.0.2526.106 2 2
+chrome87.0.4280.141 4 4
+msie7.0 1 1
+chrome103.0.0.0 58 58
+chrome59.0.3071.115 5 4
+chrome75.0.3770.100 287 287
+chrome48.0.2564.116 2 2
+chrome74.0.3694.0 32 3
+chrome94.0.4606.81 12 3
+safari15.2 34 3
+chrome73.0.3683.103 40 4
+firefox108.0 8 8
+chrome102.0.0.0 1 1
+android 6 6
+chrome72.0.3626.121 2 2
+chrome66.0.3359.181 8 8
+chrome2.0.172.0 1 1
+msie11.0 8 8
+chrome98.0.4758.102 2 2
+firefox47.0 2 2
+chrome99.0.4859.172 3 3
+chrome89.0.9063.5 1 1
+chrome2.0.157.0 1 1
+chrome104.0.0.0 26 26
+chrome83.0.4103.97 19 19
+chrome33.0.0.0 1 0
+safari15.6.1 42 9
+chrome100.0.4896.127 8 8
+chrome91.0.4472.77 36 7
+safari13.0.3 27 16
+safari9.0.2 1 1
+chrome39.0.2171.95 2 2
+chrome79.0.3945.130 1 1
+chrome85.0.4183.121 18 18
+chrome74.0.3729.157 3 3
+chrome74.0.3729.169 10 10
+firefox45.0 1 1
+opera54.0.2952.51 3 3
+chrome96.0.4664.110 6 3
+firefox114.0 171 12
+chrome111.0.0.0 37 5
+chrome87.0.4280.88 131 11
+safari10.0 1 1
+chrome99.0.4844.84 1 1
+firefox40.0 1 1
+opera54.0.2952.71 3 3
+safari15.4 7 7
+chrome108.0.0.0 44 17
+firefox63.0 3 3
+chrome70.0.3538.102 1 1
+msie9.0 2 2
+chrome106.0.0.0 2 2
+chrome97.0.4692.71 1 1
+chrome84.0.4147.105 2 1
+chrome103.0.5060.114 8 8
+chrome80.0.3987.132 1 1
+chrome67.0.3396.87 3 3
+chrome34.0.1847.131 23 23
+chrome50.0.2661.102 74 11
+chrome80.0.3987.162 1 1
+edge44 2 2
+chrome60.0.3112.107 4 4
+chrome67.0.3396.99 3 3
+chrome73.0.3683.90 2 2
+chrome28.0.1464.0 1 1
+chrome113.0.0.0 81 18
+chrome114.0.5735.106 21 21
+chrome100.0.4896.75 1 1
+safari16.5.1 63 8
+mozilla 2 1
+chrome63.0.3239.132 2 0
+chrome114.0.0.0 913 88
+chrome63.0.3239.84 1 1
+chrome112.0.0.0 4 1
+chrome90.0.4430.212 1 0
+chrome37.0.0.0 2 1
+firefox21.0 2 1
+chrome89.0.4389.114 5 4
+safari14.0.3 1 1
+chrome39.0.4045.1504 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 5
+Mozilla/5.0_(compatible;_InternetMeasurement/1.0;__https://internet-measurement.com/) 20230608115710
+axios/1.4.0 20230620064232
+GoogleOther 20230629024114
+Go-http-client/1.1 20230627001626
+cpp-httplib/0.10.9 20230619141838
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 4
+cpp-httplib/0.10.9 20230619141838
+GoogleOther 20230629024114
+Go-http-client/1.1 20230627001626
+axios/1.4.0 20230620064232
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 764 1407
+From1 3 3
+From2 39 39
+From3 132 1538
+From4 100 313
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 6
+www_google_com 20 20
+baidu 14 14
+www_google_com_tr 1 1
+www_google_nl 1 1
+bing 2 2
+ecosia 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 16
+http://en.kievfilmfestival.com/sites/all/themes/venture_theme/style.css 65 96
+http://en.kievfilmfestival.com 36 1081
+http://en.kievfilmfestival.com/content/awards 7 44
+http://en.kievfilmfestival.com/content/about 6 31
+http://en.kievfilmfestival.com/content/rules 3 3
+http://en.kievfilmfestival.com/program-guide 3 11
+http://en.kievfilmfestival.com/archive 3 183
+http://www.ethelsblog.online 2 2
+http://en.kievfilmfestival.com 2 63
+http://www.kendrablog.online 1 1
+http://www.navkoloua.com 1 1
+http://en.kievfilmfestival.com/archive/ 1 1
+http://en.kievfilmfestival.com/content/contacts 1 4
+http://en.kievfilmfestival.com/modules/system/system.base.css 0 1
+http://en.kievfilmfestival.com/content/locations 0 15
+http://www.hayleysblog.online 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 1
+osres 3
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 1
+osres 3
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 5
+302 9 5220
+403 140 293849
+206 20 7853309
+500 3 879
+404 1047 3425963
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 579
+/news/wp-includes/wlwmanifest.xml 1 -
+/wp-core.php 2 -
+/public_html.zip 1 -
+/engine.zip 1 -
+/sito/wp-includes/wlwmanifest.xml 1 -
+/k.tgz 1 -
+//alfaindex.php 1 -
+/wp/wp-login.php 1 http://en.kievfilmfestival.com
+/node/123 1 -
+//log.php 1 -
+/kievfilmfestival.tgz 1 -
+/bitrix.gz 1 -
+/public/assets/plugins/uploadify/uploadify.css 2 -
+/RELEASE_NOTES.txt 1 -
+//wp-includes/home.php 1 -
+//google.php 1 -
+/kiev.gz 1 -
+/local.php 1 -
+/wp-includes/js/tinymce/plugins/compat3x/css/index.php 1 -
+/temp/ 2 -
+/uploads/ 2 -
+//xmlrpc2.php 1 -
+/scripts/ueditor/net//controller.ashx 1 -
+//wp-content/plugins/ioptimization/IOptimize.php 1 -
+//utchiha_uploader.php 1 -
+/engine.tar.gz 1 -
+//utility/convert/index.php 1 http://en.kievfilmfestival.com//utility/convert/index.php
+//text.php 1 -
+/wp-admin/css/ 1 binance.com
+/js/mage/adminhtml/tools.js 1 -
+/wp-content/plugins/wp-cache/index.php 2 -
+//credits.php 1 -
+/public/_ignition/health-check/ 1 -
+/sites/default/files/field/image/qv2kkgam@2x.png 32 http://en.kievfilmfestival.com/program-guide
+/kievf.zip 1 -
+/repeater.php 9 -
+//update-core.php 1 -
+//tools.php 1 -
+/kie.zip 1 -
+//wp-content/themes/welfare-charity/www.php 1 -
+/site/wp-includes/ 2 -
+/wp-content/uploads/ 2 -
+/content/program-guide 6 -
+//xml.php 1 -
+/400.php 1 http://kievfilmfestival.com/400.php
+//doc.php 1 -
+/test/ 2 -
+//columns.php 1 -
+//admin.php 1 -
+//wp-admin/fx.php 1 -
+//wp-admin/wso.php 1 -
+//wp-content/plugins/anttt/simple.php 1 -
+/data.zip 1 -
+/engine.tgz 1 -
+/engine.gz 1 -
+/bitrix.tar.gz 1 -
+//backup/ 1 -
+//demo.php 1 -
+/ki.tgz 1 -
+/sites/default/files/js/js_eebrurxflkaf356v0t2k_8cnuvfckesntxdvvpsehcm.js 1 -
+/forum%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20.tgz 1 -
+/lib/webuploader/0.1.5/server/preview.php 1 -
+//index2.php 1 -
+/main 3 -
+//plus/laobiao.php 1 http://en.kievfilmfestival.com//plus/laobiao.php
+/kievfilm.zip 1 -
+//vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 http://en.kievfilmfestival.com//vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+/kievfilmfe.zip 1 -
+/wp-includes/user-handler.php 2 -
+//edit-comments.php 1 -
+//sh.php 1 -
+/wp-json/wp/v2/posts 6 kievfilmfestival.com/wp-json/wp/v2/posts
+//libsoft.php 1 http://en.kievfilmfestival.com//libsoft.php
+//Marvins.php 1 -
+/wp-ssl.php 2 -
+//plus/erraddsave.php 3 http://en.kievfilmfestival.com//plus/erraddsave.php
+//1.php 1 -
+//evil.php 1 -
+//uph.php 1 -
+//sites/all/libraries/elfinder/connectors/php/connector.php 1 -
+/test/wp-includes/wlwmanifest.xml 1 -
+/data.tar.gz 1 -
+/.well-known/ 3 -
+//wp-content/themes/gaukingo/db.php 1 -
+/wp/ 4 -
+//init.php 1 -
+/content/nagorody 7 -
+//tmpshell.php 1 -
+/logs.php 1 http://kievfilmfestival.com/logs.php
+/sitemap.xml 2 -
+/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/forum%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20.tar.gz 1 -
+//blog/ 1 -
+//up.php 1 -
+//gaza.php 1 -
+/assets/ 2 -
+/js/mage/adminhtml/sales.js 1 -
+//plus/mytag_js.php 8 http://en.kievfilmfestival.com//plus/mytag_js.php
+//wsu.php 1 -
+//theme-install.php 1 -
+/%D0%90%D1%80%D1%85%D0%B8%D0%B2.zip 1 -
+/home 3 -
+/wp-content/plugins/woocommerce/readme.txt 6 -
+/applicazione.php 1 http://kievfilmfestival.com/applicazione.php
+/1.tar.gz 1 -
+/content/kontakty 9 -
+/bc 3 -
+/wp-content/plugins/ultra-cache/index.php 3 -
+/old.gz 1 -
+//ch.php 1 -
+/public_html.tar.gz 1 -
+/vendor/phpunit/phpunit/src/Util/PHP/ 2 -
+/kie.tgz 1 -
+/wp-admin/inputs.php 2 -
+/wp1/wp-includes/wlwmanifest.xml 1 -
+/777.php 1 http://kievfilmfestival.com/777.php
+//wso.php 1 -
+/w.php 1 http://kievfilmfestival.com/w.php
+//moto.php 1 -
+/kievfi.gz 1 -
+//wp-content/wp-conf.php 1 -
+/about.php 1 http://kievfilmfestival.com/about.php
+//by.php 1 -
+//xzourt.php 1 -
+//license.php 1 -
+//customize.php 1 -
+/wp-includes/repeater.php 1 -
+/var.zip 1 -
+/view-source: 2 -
+/humans.txt 5 -
+//priv8.php 1 -
+//wordpress/ 1 -
+//srx.php 1 -
+//shells.php 1 -
+/wp-content/plugins/wp-post-author/assets/css/awpa-frontend-style.css 1 -
+//sym.php 1 -
+/include/ 2 -
+/uploadify/uploadify.css 2 -
+/data.tgz 1 -
+/js/varien/js.js 1 -
+/kievfilm.tar.gz 1 -
+/wp-content/plugins/dzs-zoomsounds/1877.php 1 -
+/kievf.tgz 1 -
+/js/uploadify/uploadify.css 2 -
+/wp-content/plugins/revslider/includes/external/page/index.php 1 -
+//hanna1337.php 1 -
+//wp-admin/wp-trc.php 1 -
+/js/mage/translate_inline.js 1 -
+/z.php 1 http://kievfilmfestival.com/z.php
+//wp-admin/fw.php 1 -
+/apple-touch-icon.png 2 -
+/kievfilmfestival.com.tar.gz 1 -
+/kiev.tar.gz 1 -
+/js/prototype/validation.js 1 -
+/www.tar.gz 1 -
+//wp-blog.php 1 -
+/wp-content/plugins/mstore-api/assets/js/mstore-inspireui.js 2 -
+//tron.php 1 -
+//shellx.php 1 -
+/kievfilm.gz 1 -
+//indexs.php 1 -
+/autoload_classmap.php 1 -
+//xox.php 1 -
+//upl.php 2 -
+/site/wp-includes/wlwmanifest.xml 1 -
+/wp-admin/ 2 -
+/blog/wp-includes/wlwmanifest.xml 1 -
+/html.gz 1 -
+/wp-login.php 18 -
+//wp_wrong_datlib.php 1 -
+/kiev.tgz 1 -
+/modules/mod_simplefileuploadv1.3/elements/ 2 -
+/sites/default/files/js/js_wmahw3fhsee68lhvmnhycw_ysqed2gb-tbge-ieenr8.js 1 -
+/kiev.zip 1 -
+/style.php 6 -
+//plus/ad_js.php 3 http://en.kievfilmfestival.com//plus/ad_js.php
+/kievfi.zip 1 -
+//symlink.php 1 -
+/backup/ 4 -
+/web/wp-includes/wlwmanifest.xml 1 -
+/OLD/ 2 -
+/wp-admin 1 -
+//user-new.php 1 -
+//temp/ 1 -
+/theme/assets/fileupload/index.php 2 -
+//wp-content/plugins/TOPXOH/wDR.php 2 -
+//an.php 1 -
+/.well-known/autoconfig/mail/config-v1.1.xml 2 -
+/data.gz 1 -
+//root.php 1 -
+//fan.php 1 -
+/public_html.tgz 1 -
+//wp-includes/class-json-ajax-session.php 1 -
+//x.php 2 -
+/images/inputs.php 1 -
+//bala.php 1 -
+/wp-includes/inputs.php 2 -
+/kievfilmfestival.com.zip 1 -
+/asset-manifest.json 1 http://kievfilmfestival.com/
+/wp-content/plugins/handline/handline.php 3 -
+//hehe.php 1 -
+//wp-content/themes/seotheme/db.php 1 -
+/kievfilmfes.tgz 1 -
+/config.php 1 http://kievfilmfestival.com/config.php
+/rest/session/token 1 -
+/kie.gz 1 -
+//wp-admin/alfa.php 1 -
+/cong.php 1 www.google.com
+//__1975.php 1 -
+/k.zip 1 -
+//home.php 1 -
+/wp-2019.php 1 -
+//lock0360.php 1 -
+/666.php 1 http://kievfilmfestival.com/666.php
+//F0x.php 1 -
+//byp.php 1 -
+/user_editor.php 1 http://kievfilmfestival.com/user_editor.php
+//wp-file.php 1 -
+//moon.php 1 -
+/alwso.php 1 -
+//m.php 1 -
+/content/podacha-zayavky 1 -
+/sites/all/modules/colorbox/styles/default/colorbox 2 -
+/wp-fox.php 1 -
+//z.php 1 -
+/magento_version 1 -
+//wp-content/plugins/wp-file-upload/ROOBOTS.php 1 -
+/_ignition/health-check/ 1 -
+//DKIZ.php 1 -
+/feed/ 1 -
+/wordpress/wp-includes/ 2 -
+/kie.tar.gz 1 -
+/var.gz 1 -
+/sites/default/files/festival_awards@2x.jpg 44 http://en.kievfilmfestival.com/
+//wp-22.php 1 -
+//xl2023.php 1 -
+/backup 3 -
+/sites/all/themes/venture 2 -
+/kievfilmf.gz 1 -
+/kievfilmfes.gz 1 -
+//wp-content/fw.php 1 -
+//fx.php 1 -
+/html.tar.gz 1 -
+//exit.php 1 -
+//wp-includes/fw.php 1 -
+//406.php 1 -
+//mini.php 1 -
+//user.php 3 -
+/alfanew.php7 1 -
+/kievfilmfestival.zip 1 -
+/bk/ 2 -
+/assets/global/plugins/uploadify/uploadify.css 2 -
+/backup.gz 1 -
+//lufi.php 1 -
+//test/ 1 -
+//cp.php 1 -
+/%D0%90%D1%80%D1%85%D0%B8%D0%B2.tgz 1 -
+/bk 3 -
+//wp-content/themes/classic/inc/casper.php 1 -
+/var.tgz 1 -
+/k.tar.gz 1 -
+/options.php 1 http://kievfilmfestival.com/options.php
+/js/js.js 1 -
+/aa.php 1 http://kievfilmfestival.com/aa.php
+/wp-content/plugins/ 2 -
+//wp.php 1 -
+//v3n0m.php 1 -
+/kievfilmfe.tar.gz 1 -
+//gecko.php 1 -
+/administrator/index.php 2 -
+/a/j/volusion.js 1 -
+/sites/default/files/ 3 -
+/fix/Public/Webuploader/server/preview.php 1 -
+//wp-plugins.php 1 -
+/kievfil.gz 1 -
+/kievfi.tar.gz 1 -
+/www.zip 1 -
+//shell20211028.php 1 -
+/wp-admin/repeater.php 1 -
+//wp-content/plugins/ccx/index.php 1 -
+//fox.php 1 -
+/old 3 -
+/new/ 2 -
+/archive.zip 1 -
+//wp-includes/shell20211028.php 1 -
+/kievfil.tgz 1 -
+/wso112233.php 1 -
+//zend/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 http://en.kievfilmfestival.com//zend/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+//utchiha.php 1 -
+/kievfi.tgz 1 -
+/sites/all/themes/venture_theme/images/slide-image-3@2x.jpg 29 http://en.kievfilmfestival.com/
+/ads.txt 8 -
+/images/wlw/wp-icon.png 1 -
+/2020/wp-includes/wlwmanifest.xml 1 -
+/cpanel/ 1 -
+/k.gz 1 -
+/inputs.php 2 -
+//tesla.php 1 -
+/assets/uploadify/uploadify.css 2 -
+/wp-instance.php 2 -
+/kievfil.tar.gz 1 -
+/sites/all/modules/date/date 2 -
+//old/ 1 -
+//plus/90sec.php 1 http://en.kievfilmfestival.com//plus/90sec.php
+//wp-content/plugins/core-stab/casper.php 1 -
+/wp-content/ 3 -
+/public/assets/global/plugins/uploadify/uploadify.css 2 -
+//wp-admin/wp-22.php 1 -
+//access.php 1 -
+//xlettt.php 1 -
+/public/assets/uploadify/uploadify.css 4 -
+/css/ 2 -
+//lock360.php 1 -
+/blog.zip 1 -
+//wp-content/plugins/linkpreview/db.php 1 -
+//alfanew.php7 1 -
+//wp-content/alfa.php 1 -
+/wp-node.php 2 -
+//lib/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 http://en.kievfilmfestival.com//lib/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+/wp-includes/ 2 -
+/assets/js/uploadify/uploadify.css 2 -
+/wp-commentin.php 3 -
+//h4xor.php 1 -
+/apple-touch-icon-precomposed.png 2 -
+//wp/ 1 -
+//end.php 1 -
+/wp-includes/lib.php 2 -
+/kievf.gz 1 -
+//IndoXploit.php 1 -
+//wp-includes/sodium_compat/src/Core/Curve25519/Ge/wp_blog.php 1 -
+//alfa.php 1 -
+/sftp-config.json 2 -
+/kievfilmfestival.com.gz 1 -
+/wp-info.php 1 http://kievfilmfestival.com/wp-info.php
+//marijuana.php 1 -
+/kievfilmfe.gz 1 -
+//wp-admin/network/db.php 1 -
+/1686964419186613752 1 -
+/sites/default/files/js/js 2 -
+//ups.php 1 -
+/kievf.tar.gz 1 -
+/var.tar.gz 1 -
+//wp-content/plugins/w0rdpr3ssnew/about.php 1 -
+/1.zip 1 -
+/bitrix.zip 1 -
+//anon.php 1 -
+/archive.tar.gz 1 -
+//wp-content/plugins/xsid/marijuana.php 1 -
+/.well-known/acme-challenge/ 2 -
+/wp2/wp-includes/wlwmanifest.xml 1 -
+//users.php 1 -
+//0x55.php 1 -
+//fm.php 1 -
+/archive.tgz 1 -
+/wp-admin/network/index.php 1 www.google.com
+//xx.php 1 -
+/home/ 2 -
+/wp-includes/wlwmanifest.xml 6 -
+/sites/default/files/2019-02-27_10.25.13@2x.jpg 1 http://kievfilmfestival.com/content/rozmishchennya
+/wp-cc.php 3 -
+//lalala.php 1 -
+/ffAA531.php 1 -
+/wso.php 1 -
+/fox.php 1 -
+//wsoyanzorng.php 1 -
+//kill.php 1 -
+/kievfilmfes.tar.gz 1 -
+/kievfilmfe.tgz 1 -
+/ALFA_DATA/ 2 -
+//wp-content/shell20211028.php 1 -
+/content/judges 1 -
+/b1a3k.php 1 -
+/auto_seo.php 2 -
+/sites/default/files/2019-02-27_10.25.19@2x.jpg 1 http://kievfilmfestival.com/content/rozmishchennya
+/adminer.php 1 -
+//plus/myjs.php 1 http://en.kievfilmfestival.com//plus/myjs.php
+/old.tar.gz 1 -
+/kievfilmfestival.gz 1 -
+/images/ 2 -
+/sites/default/files/04d6122f740cca629938f8c669428051_10@2x.jpg 1 http://kievfilmfestival.com/content/rozmishchennya
+/public_html.gz 1 -
+//leet.php 1 -
+//1975.php 1 -
+/ki.zip 1 -
+/cms/wp-includes/wlwmanifest.xml 1 -
+/1.tgz 1 -
+//12345.php 1 http://en.kievfilmfestival.com//12345.php
+//plus/comments_frame.php 1 http://en.kievfilmfestival.com//plus/comments_frame.php
+//plus/download.php 5 http://en.kievfilmfestival.com//plus/download.php
+//lyda.php 1 -
+//wp-includes/atom.php 1 -
+//snd.php 1 -
+//small.php 1 -
+//mad.php 1 -
+/wp 3 -
+/kievfilmf.tar.gz 1 -
+/blog/wp-login.php 1 http://en.kievfilmfestival.com
+/files/ 2 -
+//themes.php 1 -
+/wp-includes/SimplePie/Content/about.php 1 www.google.com
+//term.php 1 -
+/wp-content/plugins/core-builder/index.php 3 -
+/%D0%90%D1%80%D1%85%D0%B8%D0%B2.tar.gz 1 -
+//R00T.php 1 -
+//1877.php 1 -
+/sites/default/files/js/js_fnmfnlvo9xfn_ic7wpm-jjo0-meg7ofurgbloscy1zu.js 1 -
+/ki.gz 1 -
+/wp-content/plugins/td-cloud-library/assets/css/tdb_wp_admin_taxonomies.css 2 -
+//0x.php 1 -
+//utchiha505.php 1 -
+/backup.tar.gz 1 -
+//robots1.php 1 http://en.kievfilmfestival.com//robots1.php
+/1.gz 1 -
+//tnt.php 1 -
+/alfa-rex.php7 2 -
+/html.zip 1 -
+/kievfilmfestivalcom.tgz 1 -
+/old.tgz 1 -
+/website/wp-includes/wlwmanifest.xml 1 -
+/assets/inputs.php 1 -
+/kievfilmfestivalcom.gz 1 -
+/wp-json/wp/v2/users/1 3 -
+//xleet.php 1 -
+/static/admin/css/base.css 1 -
+//upload.php 1 -
+/sites/all/themes/venture_theme/images/slide-image-1@2x.jpg 30 http://en.kievfilmfestival.com/
+/shop/wp-includes/wlwmanifest.xml 1 -
+/blog.tar.gz 1 -
+/sites/all/modules/ubercart/uc 2 -
+/content/kff-2017 4 -
+//shell.php 1 -
+//templates/beez3/error.php 1 -
+/wp-content/themes/ 2 -
+//zz.php 1 -
+//mar.php 1 -
+/kievfilmfestival.tar.gz 1 -
+//404.php 1 -
+/www.gz 1 -
+/kievfilmfestivalcom.tar.gz 1 -
+/sites/all/themes/venture_theme/images/slide-image-2@2x.jpg 30 http://en.kievfilmfestival.com/
+/kievfilmf.tgz 1 -
+//Deadcode1975.php 1 -
+/backup.zip 1 -
+//ws.php 1 -
+//wp-content/plugins/hellopress/wp_filemanager.php 1 -
+//wp-includes/wp-class.php 1 -
+//payload.php 1 -
+//wp-admin/css/colors/blue/uploader.php 1 -
+/skin/adminhtml/default/default/boxes.css 1 -
+//plus/digg_ajax.php 1 http://en.kievfilmfestival.com//plus/digg_ajax.php
+//wp-content/plugins/revslider/includes/page/index.php 1 -
+/wp-content/index.php 1 -
+//css.php 1 -
+//laravel52/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 http://en.kievfilmfestival.com//laravel52/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+/assets/images/inputs.php 1 -
+//ini.php 1 -
+//me.php 1 -
+/new 3 -
+//wp-content/plugins/wordpresss3cll/up.php 2 -
+//plugins.php 1 -
+/wp-content/repeater.php 1 -
+/public/lib/webuploader/0.1.5/server/preview.php 1 -
+//yii/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 http://en.kievfilmfestival.com//yii/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+/wp-includes/fonts/index.php 1 www.google.com
+//about.php 1 -
+/js/mage/adminhtml/product.js 1 -
+/archive.gz 1 -
+/.well-known/pki-validation/ 2 -
+/shell.php 1 -
+//0z.php 1 -
+/2019/wp-includes/wlwmanifest.xml 1 -
+/kievfilm.tgz 1 -
+//alf.php 1 -
+//www.php 1 -
+//wp-content/plugins/instabuilder2/cache/plugins/moon.php 1 -
+/forum%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20.gz 1 -
+//contents.php 1 -
+//classwithtostring.php 1 -
+//wpx.php 1 -
+//tmp/vuln.php 1 -
+/plugins/uploadify/uploadify.css 2 -
+/wp-content/plugins/essential-addons-for-elementor-lite/assets/admin/css/cloud.css 2 -
+/apple-touch-icon-120x120.png 2 -
+/blog/ 2 -
+//wp-content/themes/ThisWay/includes/uploadify/upload_settings_image.php 1 -
+//wp-admin/wso112233.php 1 -
+/kievfilmfestivalcom.zip 1 -
+//robots.php 1 http://en.kievfilmfestival.com//robots.php
+/Content/js/ueditor/net/controller.ashx 1 -
+//403.php 1 -
+/wp-content/plugins/wc-multivendor-membership/assets/css/wcfmvm-style-memberships.css 2 -
+//wp-content/plugins/Cache/Cache.php 1 -
+//uploads/up.php 1 -
+/wp-content/plugins/incache/front/incache.jpeg 1 -
+//inbox.php 1 -
+//plugin-install.php 1 -
+/%D0%90%D1%80%D1%85%D0%B8%D0%B2.gz 1 -
+/help.php 1 http://kievfilmfestival.com/help.php
+//wp-content/themes/pridmag/db.php 1 -
+//wp-includes/random_compat/random_bytes_cyclone.php 1 -
+//images/vuln.php 1 -
+/wp/wp-includes/wlwmanifest.xml 1 -
+/security.txt 1 -
+/wp-content/plugins/task-controller/index.php 3 -
+//wp-admin/css/colors/blue/CasperExV1.php 1 -
+//private.php 1 -
+//install/index.php.bak 1 http://en.kievfilmfestival.com//install/index.php.bak
+//new/ 1 -
+//wp-admin/shell20211028.php 1 -
+/wordpress/wp-login.php 1 http://en.kievfilmfestival.com
+//lock.php 1 -
+//ton.php 1 -
+/components/ 2 -
+/js/mage/cookies.js 1 -
+//1337.php 1 -
+/backup.tgz 1 -
+//index.php 10 -
+//emergency.php 1 -
+//images/F0x.php 1 -
+/kievfilmfestival.com.tgz 1 -
+/wp-content/inputs.php 2 -
+/blog.gz 1 -
+/public/plugins/uploadify/uploadify.css 2 -
+//rxr.php 1 -
+/old.zip 1 -
+/www.tgz 1 -
+/ajax/show_basket_fly.php 1 -
+//media-admin.php 1 -
+//wp-info.php 1 -
+//type.php 1 http://en.kievfilmfestival.com//type.php
+//nuan.php 1 http://en.kievfilmfestival.com//nuan.php
+/upload/image/ 2 -
+//mass.php 1 -
+/wp-content/about.php 1 www.google.com
+//olux.php 1 -
+//wp-content/plugins/augmented-reality/vendor/elfinder/php/connector.minimal.php 1 -
+/sites/default/files/falcon-kiev 2 -
+//wso112233.php 1 -
+/.well-known/security.txt 1 -
+/a.php 1 http://kievfilmfestival.com/a.php
+/Content/ueditor/net/controller.ashx 1 -
+//laravel/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 http://en.kievfilmfestival.com//laravel/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+//include/dialog/select_images_post.php 1 http://en.kievfilmfestival.com//include/dialog/select_images_post.php
+/x.php 1 http://kievfilmfestival.com/x.php
+/wp-content/plugins/wp-task-scheduler/scheduler.php 3 -
+/apple-touch-icon-120x120-precomposed.png 2 -
+/blog.tgz 1 -
+/old/ 4 -
+/sitemap.txt 3 -
+//wp-content/plugins/index.php 1 -
+//wp-content/home.php 1 -
+/kievfilmf.zip 1 -
+/ki.tar.gz 1 -
+//fw.php 1 -
+//wp-admin/home.php 1 -
+/node/122 2 -
+/bitrix.tgz 1 -
+//lufix.php 1 -
+//wp-content/up.php 1 -
+//minishell.php 1 -
+/html.tgz 1 -
+/js/lib/flex.js 1 -
+/url(%22http://en.kievfilmfestival.com/sites/all/modules/colorbox/styles/default/colorbox_ 1 http://en.kievfilmfestival.com/archive
+/kievfilmfes.zip 1 -
+//font-editor.php 1 -
+/sites/default/files/film-reel-logo-small-2@2x.png 54 http://en.kievfilmfestival.com/content/awards
+/site/ 2 -
+//Gecko.php 1 -
+/fileupload/index.php 2 -
+/wordpress/wp-includes/wlwmanifest.xml 1 -
+/forum%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20.zip 1 -
+//default.php 1 -
+/wordpress/ 21 -
+//503.php 1 -
+/kievfil.zip 1 -
+//data/cache/t.php 1 http://en.kievfilmfestival.com//data/cache/t.php
+/wordpress 3 -
+//wp-admin/1975.php 1 -
+/upload/ 2 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 483
+91.193.18.14 124 124 611773 20230627001906
+193.29.107.250 61 61 300978 20230624012607
+146.70.202.179 59 59 291118 20230621100943
+54.36.173.89 51 51 2605954 20230619141838
+104.234.212.2 28 28 138145 20230623014601
+54.209.159.63 23 23 208584 20230630234938
+65.109.155.173 13 13 1052470 20230619121749
+213.61.32.110 11 69 3219613 20230626153837
+146.59.52.85 11 11 248422 20230618062727
+37.120.217.167 9 9 44419 20230621095713
+106.55.201.50 0 2 455216 
+143.110.166.84 2 2 9577 20230630060004
+42.236.10.117 1 5 123336 20230611220859
+116.179.33.148 0 1 564 
+14.29.231.137 1 1 5973 20230610070304
+205.237.89.243 1 1 5355 20230619105018
+165.227.44.97 1 1 4799 20230626085555
+51.83.238.159 2 2 45558 20230609081236
+77.91.68.130 4 4 61429 20230621094258
+34.220.70.247 1 1 5971 20230627020221
+163.172.70.215 8 8 390457 20230620192734
+27.115.124.112 1 5 52499 20230607042500
+3.137.186.26 6 91 1086121 20230620225912
+27.115.124.104 1 9 219534 20230602145105
+143.110.166.51 1 1 7583 20230630232313
+34.214.158.75 1 1 5971 20230628012304
+180.163.220.61 0 1 2147 
+106.55.201.137 0 1 376562 
+34.221.2.154 1 1 5969 20230623025502
+170.64.136.121 1 1 22875 20230622230359
+116.179.33.80 0 2 2011 
+89.46.223.134 2 2 44752 20230623093933
+61.147.15.65 2 2 11519 20230618220108
+159.223.151.195 1 1 5968 20230619163645
+17.139.40.116 0 1 14512 
+85.239.52.218 3 27 2499351 20230624012630
+194.36.96.245 1 1 4779 20230630124353
+178.133.2.146 3 34 2635471 20230603165624
+185.225.74.95 1 1 5971 20230617060456
+35.86.87.216 1 1 5974 20230614234302
+3.92.51.109 1 1 22779 20230629191837
+188.234.43.231 6 6 101415 20230613155226
+154.202.122.126 1 1 4781 20230616160222
+121.239.16.4 1 1 5548 20230618215444
+193.32.87.45 1 1 22779 20230616120030
+143.110.161.164 1 1 5970 20230623181439
+154.28.229.108 1 1 5972 20230609015640
+193.56.113.54 2 2 30714 20230617155132
+120.92.72.144 0 1 119723 
+120.92.72.246 1 2 125269 20230629141729
+34.214.169.9 1 2 8117 20230627001625
+165.22.72.218 1 1 5426 20230625165355
+191.101.209.94 3 3 53823 20230627082847
+210.220.95.250 1 1 5975 20230624115315
+84.232.217.122 4 80 2987324 20230621141441
+106.55.200.246 0 2 198833 
+223.29.253.65 1 1 4780 20230628034228
+34.222.143.36 1 1 5970 20230601015958
+101.67.29.214 0 1 5159 
+193.56.29.26 3 3 17488 20230616090142
+170.64.173.233 1 1 21973 20230613062653
+34.217.12.9 1 1 22779 20230623173514
+3.142.212.58 6 91 1086118 20230607000955
+107.150.70.209 1 1 4781 20230628093402
+173.252.127.118 0 2 2585 
+206.189.203.170 1 1 5971 20230608164114
+220.181.51.88 1 1 5547 20230620060810
+112.13.112.86 1 2 44941 20230617132155
+27.115.124.33 0 3 4006 
+223.79.126.92 8 69 5279884 20230615224654
+137.184.46.173 1 1 5094 20230630090117
+44.207.120.63 1 1 43457 20230627130717
+64.226.110.211 1 1 5968 20230615165412
+196.242.114.180 2 2 10405 20230604131022
+45.41.141.233 1 1 5970 20230617110212
+196.242.195.10 1 1 5634 20230614173145
+14.241.230.5 6 6 32655 20230630072231
+209.99.161.18 1 1 8126 20230619105019
+192.36.109.75 1 1 5970 20230626175248
+175.44.42.223 1 1 5970 20230627070224
+62.122.184.129 1 1 5973 20230629083730
+168.151.93.125 1 1 5972 20230619105002
+42.236.10.100 0 3 9379 
+106.55.200.66 0 1 14512 
+175.44.42.49 1 1 5546 20230612173347
+173.252.127.21 2 7 498618 20230622024551
+137.184.199.197 1 1 5970 20230621053144
+27.115.124.6 0 5 418595 
+42.236.10.114 0 5 1654097 
+91.193.19.153 0 3 120868 
+193.56.113.49 2 2 30729 20230604211752
+131.153.240.162 1 1 5973 20230605194104
+198.176.97.15 0 1 14512 
+161.35.132.203 1 1 5096 20230620085724
+35.217.37.67 1 2 40293 20230624144058
+116.179.33.211 0 1 5428 
+61.147.15.67 2 2 11517 20230618220218
+161.35.31.27 1 1 4630 20230626014449
+60.188.11.8 0 3 1035 
+45.67.143.231 1 1 23587 20230617110222
+18.236.176.85 1 1 5971 20230626043856
+101.36.124.151 1 1 5545 20230618091058
+161.35.21.89 1 1 5974 20230613163754
+156.59.237.152 0 1 14512 
+160.20.9.164 1 1 4781 20230623170531
+87.236.176.180 0 1 2147 
+87.249.132.167 3 3 53972 20230613213203
+27.188.63.198 1 1 5973 20230603151642
+131.153.142.170 1 1 268468 20230602213959
+116.179.33.15 0 1 961 
+106.55.200.233 0 4 40913 
+103.31.103.143 6 6 32644 20230614001306
+35.91.217.49 1 1 5970 20230619021844
+136.158.29.63 2 2 23166 20230613013238
+45.134.225.36 1 1 5970 20230629120747
+39.173.107.136 0 1 872 
+167.71.203.255 1 1 5967 20230621160511
+120.92.72.185 1 1 4524 20230622140449
+206.41.166.108 1 1 7339 20230617110221
+106.55.202.186 0 3 1689952 
+180.249.166.79 7 69 5612621 20230611181249
+149.62.41.72 1 1 4781 20230618174139
+45.137.126.6 1 3 145096 20230609032848
+85.246.57.176 3 34 2635472 20230614185508
+107.150.70.240 1 1 4781 20230626010431
+87.236.176.106 1 1 5969 20230608115708
+180.166.193.216 7 45 4847678 20230621100948
+203.91.85.252 4 36 2717668 20230610045548
+134.122.50.180 1 1 5435 20230625110302
+60.188.9.211 0 4 5866 
+27.115.124.97 3 19 349682 20230607042504
+211.140.23.130 0 1 14512 
+173.252.127.6 0 7 1693152 
+27.115.124.49 0 3 9379 
+106.55.200.136 0 1 1589191 
+14.116.152.84 1 1 5972 20230629085259
+42.83.147.55 3 3 17909 20230626082413
+120.92.72.149 1 1 4523 20230629141728
+86.242.101.47 5 37 2728046 20230602145141
+168.151.56.21 1 1 5351 20230617110224
+27.115.124.2 0 2 50045 
+101.67.50.9 1 4 55118 20230613061725
+77.174.19.42 4 35 2641016 20230630210630
+209.141.41.193 0 1 19827 
+143.198.102.220 1 1 5970 20230610144831
+88.230.4.31 1 1 5969 20230608134553
+81.199.232.93 3 34 2635470 20230629180146
+86.123.241.145 1 1 4782 20230609135938
+66.249.70.67 0 1 22107 
+45.81.39.104 1 1 22779 20230602033841
+101.67.29.211 0 2 49902 
+137.184.199.166 1 1 5545 20230620220428
+120.92.72.72 2 2 13965 20230629141730
+206.189.22.11 1 1 5972 20230612062434
+91.232.21.247 1 1 5969 20230603220031
+54.149.251.177 1 1 5969 20230619021136
+120.92.72.197 1 1 43461 20230622140448
+79.110.49.19 1 1 5547 20230608211655
+220.196.160.144 1 1 5968 20230605102036
+171.22.113.239 1 1 4778 20230618211102
+165.232.97.210 1 1 23029 20230625204346
+60.188.11.9 0 2 2996 
+27.115.124.38 2 14 1797248 20230611221147
+65.109.155.183 8 8 210468 20230619141131
+154.201.61.2 1 1 4782 20230617044624
+104.194.192.210 1 1 5174 20230619105016
+124.6.178.214 2 2 22360 20230614025543
+129.151.255.212 1 1 5971 20230620101321
+193.56.113.27 2 2 30702 20230604163803
+138.199.55.184 1 1 14016 20230619185852
+43.134.104.190 4 4 68724 20230611175932
+52.27.79.12 1 1 5968 20230610030936
+129.204.249.78 0 1 1589191 
+81.71.5.172 0 2 1765917 
+154.202.108.230 1 1 4779 20230615154653
+60.188.9.212 0 2 2742 
+114.132.203.161 0 1 2147 
+203.234.243.138 2 2 11942 20230621185030
+120.92.72.99 1 1 5546 20230607162417
+193.201.8.40 2 2 1076 20230612145508
+65.154.226.168 1 1 5968 20230624074228
+64.140.131.99 1 1 8129 20230617110224
+14.116.185.229 1 1 5974 20230619100237
+27.115.124.34 0 3 2688 
+131.153.240.178 3 3 805404 20230610214448
+185.187.70.85 6 6 32649 20230621190247
+18.232.184.106 1 4 212637 20230616091125
+42.236.10.121 1 5 171290 20230606153307
+89.187.168.76 1 1 22779 20230608184002
+205.237.89.254 1 1 5339 20230617110223
+175.44.42.125 1 1 5547 20230626000939
+108.61.194.151 2 2 11092 20230605181749
+54.188.63.12 1 1 5969 20230607013838
+27.115.124.96 1 6 187359 20230602145105
+14.116.150.68 1 1 5967 20230608052012
+146.70.120.215 3 3 14801 20230618140752
+116.179.33.73 0 1 5428 
+116.179.33.213 0 1 564 
+42.236.10.123 2 7 153599 20230606153307
+142.182.7.209 3 34 2635469 20230630202141
+137.184.93.142 1 1 5095 20230625220512
+106.75.136.74 1 6 217274 20230615222853
+66.249.70.69 0 1 22107 
+34.219.88.254 1 1 5970 20230630010119
+5.42.64.52 3 3 47623 20230613212256
+190.30.177.6 2 2 22360 20230623181515
+196.242.195.58 1 1 4779 20230615055158
+193.36.117.112 1 1 4929 20230627101752
+146.70.123.214 2 2 30697 20230614155017
+116.179.33.206 1 2 6112 20230610194527
+60.188.11.12 0 2 53071 
+138.197.135.99 1 1 5970 20230611180811
+91.245.254.196 1 1 14016 20230626223041
+35.93.159.253 1 1 5969 20230606014640
+14.29.140.161 1 1 5973 20230621121121
+118.114.72.250 8 88 3081042 20230607162457
+45.137.126.35 0 1 32654 
+35.171.144.152 2 2 45654 20230623034226
+39.173.107.137 0 1 5428 
+35.165.4.171 1 1 5968 20230609021910
+66.249.66.87 0 1 22107 
+113.108.9.38 1 1 5969 20230612074643
+196.242.46.93 2 2 9562 20230612170745
+23.236.221.142 1 1 4410 20230605214439
+64.120.119.71 5 37 2669187 20230615172007
+205.185.116.25 0 1 119723 
+129.146.180.99 3 34 2635472 20230610045516
+106.52.69.80 0 1 2147 
+116.179.33.83 0 1 550 
+183.227.158.14 9 42 2772859 20230625142526
+137.184.38.179 1 1 6785 20230625213543
+86.35.242.39 3 34 2635471 20230605132412
+196.19.240.47 1 1 4780 20230615053922
+52.203.23.91 0 1 2147 
+209.141.36.231 0 1 2147 
+193.56.113.29 2 2 30723 20230619112621
+116.179.33.78 1 1 5548 20230620060810
+223.247.179.42 2 2 11940 20230615054823
+85.208.115.147 1 1 4782 20230618174640
+134.122.97.159 1 1 23025 20230627150858
+60.188.9.216 0 1 5428 
+39.173.107.138 0 1 2704 
+157.245.79.247 1 1 7580 20230626050701
+139.59.84.153 1 1 22779 20230614002502
+113.125.140.19 2 2 11942 20230609052250
+86.9.130.164 6 67 5268792 20230612142232
+165.22.68.224 1 1 6782 20230626113511
+111.9.11.231 1 1 5547 20230623103403
+101.68.211.2 2 4 50044 20230615070205
+54.184.54.253 1 1 5969 20230601010142
+18.220.240.244 6 91 1086119 20230628073552
+37.19.223.114 3 3 48294 20230613022746
+220.196.160.76 1 1 5969 20230627144552
+138.197.88.204 1 1 5973 20230618101712
+193.112.130.107 0 1 376562 
+106.75.164.143 1 2 24926 20230616080737
+196.19.249.60 2 2 9559 20230615090529
+42.236.10.113 0 2 69165 
+78.46.95.169 1 1 22875 20230619113017
+27.34.104.228 1 1 4781 20230604090427
+35.88.198.4 1 1 5970 20230604023907
+180.163.30.100 1 3 637546 20230620120833
+149.56.150.221 1 1 22779 20230608000955
+42.83.147.54 1 1 5970 20230602052610
+173.249.27.178 1 1 5547 20230604141349
+103.168.53.112 1 1 4413 20230615102919
+180.101.245.249 1 1 5969 20230612101530
+120.92.72.220 1 1 43458 20230629141730
+209.141.34.187 0 1 37481 
+42.236.10.75 3 16 1853311 20230615225125
+43.156.173.94 1 1 5970 20230602093821
+185.52.145.0 3 34 2635470 20230608121557
+185.183.157.214 1 1 5967 20230622201049
+45.87.104.123 1 1 22779 20230608033428
+180.108.189.127 1 1 5967 20230614200047
+223.29.253.74 1 1 4779 20230614172341
+101.67.50.11 0 1 4769 
+42.236.10.125 1 17 510597 20230611220855
+14.116.152.103 1 1 5974 20230601054549
+180.249.208.34 1 1 4526 20230616160431
+27.115.124.114 3 14 348344 20230602145102
+64.140.128.247 1 1 5168 20230617110224
+138.199.55.17 1 1 4781 20230607104826
+173.208.46.131 1 1 4414 20230614113233
+54.202.144.196 1 1 5970 20230625045335
+191.101.114.192 1 1 4783 20230628034947
+66.249.70.68 0 4 88428 
+142.93.151.80 1 1 5971 20230625165913
+185.13.99.111 1 1 5968 20230611120112
+5.46.225.216 3 34 2635470 20230624200913
+117.89.194.243 3 34 2635470 20230626145743
+34.212.26.81 0 1 78654 
+52.11.197.239 1 1 5971 20230608031631
+185.185.134.150 2 2 9865 20230618043633
+67.250.162.229 3 34 2635467 20230619231351
+209.99.178.186 1 1 5340 20230619105017
+42.236.10.106 0 10 716371 
+66.249.66.43 0 1 22107 
+116.179.33.204 0 1 2035 
+42.83.147.56 1 1 5970 20230612220411
+84.54.50.239 1 1 5972 20230624074435
+157.245.108.82 1 1 5969 20230617154632
+116.179.33.85 0 1 3711 
+58.211.23.183 2 2 11517 20230618222209
+77.152.86.86 1 1 4524 20230615113511
+206.83.118.138 9 137 3372992 20230619061006
+101.67.29.212 0 1 961 
+165.231.159.22 1 1 4777 20230626011145
+34.212.50.74 1 1 5970 20230629014725
+120.92.72.108 0 1 119723 
+103.225.200.183 1 1 4781 20230614091242
+120.92.72.116 1 1 5546 20230622140446
+161.35.23.31 1 1 5426 20230620025936
+5.133.192.192 1 1 5969 20230605020241
+79.191.155.253 3 34 2635469 20230621114533
+209.141.36.112 1 2 7574 20230614073805
+43.139.45.109 1 1 22875 20230609194240
+205.237.89.217 1 1 23585 20230619105015
+65.109.145.168 4 4 100694 20230619154004
+137.184.33.13 1 1 7580 20230620054252
+39.173.107.139 0 1 509 
+75.119.150.136 1 1 5548 20230608092956
+42.236.10.84 1 22 2412837 20230615225122
+51.159.30.87 2 2 8636 20230605093748
+220.181.51.118 1 1 5547 20230610191511
+14.29.206.197 1 1 5974 20230627055236
+108.167.189.81 1 1 22779 20230622034352
+54.78.105.166 2 2 11603 20230615041150
+54.212.90.28 1 1 5970 20230611230426
+107.158.118.101 1 1 4782 20230614092331
+64.140.130.253 1 1 5634 20230619105012
+193.112.129.180 0 1 14512 
+118.89.64.146 0 1 78654 
+192.210.201.177 1 1 4778 20230623081531
+87.121.221.222 1 1 5545 20230616235456
+80.70.111.237 1 1 22779 20230630051555
+193.56.113.19 2 2 30654 20230629212429
+3.135.228.231 6 91 1086119 20230614025503
+114.132.203.153 0 1 376562 
+114.132.203.59 0 2 1667845 
+173.252.127.10 0 2 120430 
+114.94.12.16 0 1 14512 
+178.128.84.155 1 1 5967 20230626041815
+64.227.178.181 1 1 5971 20230627185007
+196.245.163.251 1 1 4781 20230603145429
+164.92.202.75 1 1 6782 20230620032148
+192.64.4.29 1 1 494 20230620105719
+95.70.130.42 3 34 2635468 20230616122348
+106.55.202.193 0 2 191238 
+129.146.176.1 5 82 3014955 20230616222245
+209.141.55.120 0 2 34801 
+27.115.124.45 0 5 300861 
+38.125.205.141 3 34 2635470 20230619231416
+104.194.192.183 1 1 5632 20230617110221
+46.38.101.156 9 9 107577 20230621081519
+106.55.201.130 0 1 2147 
+178.0.38.232 5 33 2641106 20230618165118
+45.61.49.24 1 1 22875 20230604130250
+82.76.123.22 1 1 5548 20230617122615
+159.223.77.67 1 1 5547 20230622055127
+114.132.203.158 0 1 14512 
+87.116.167.206 3 34 2628677 20230603174321
+116.179.33.17 0 1 3711 
+3.237.86.54 2 8 371752 20230616110645
+178.83.73.83 3 34 2635468 20230617135227
+87.249.132.23 3 3 48294 20230604190747
+128.90.102.25 1 1 494 20230602132328
+116.179.33.212 0 1 144 
+156.59.237.149 0 1 14512 
+178.128.33.32 1 1 5970 20230629183847
+180.163.30.76 1 3 724615 20230604215833
+23.229.43.47 1 1 4412 20230604200755
+139.59.63.147 1 1 5974 20230605161148
+175.44.42.62 1 1 5968 20230613135424
+45.81.39.206 1 1 22779 20230622041326
+27.115.124.41 3 9 448405 20230603073211
+156.146.55.167 3 3 48294 20230602185740
+42.236.10.78 1 10 172950 20230615224840
+102.165.54.51 1 1 4785 20230627023324
+34.30.96.194 0 1 38737 
+138.128.118.130 4 4 22087 20230615095740
+35.89.48.50 1 1 5970 20230614234353
+42.236.10.116 0 3 2886 
+51.254.199.11 4 4 21707 20230627010400
+42.83.147.34 1 1 5970 20230630034646
+173.214.200.204 1 1 5971 20230627062431
+219.155.143.76 1 1 5970 20230626225210
+165.22.197.220 1 1 4631 20230625204243
+104.138.163.59 4 28 461722 20230630223645
+116.179.33.201 0 2 734 
+27.115.124.68 0 8 44304 
+209.141.35.128 0 1 32654 
+161.35.132.79 1 1 4630 20230620043311
+42.229.131.102 1 1 5972 20230628011609
+35.80.34.141 3 32 2631890 20230603060019
+173.252.127.11 0 4 197451 
+223.247.178.167 1 1 5972 20230620085931
+173.252.127.4 0 1 2147 
+42.236.10.93 0 9 361300 
+106.75.188.50 1 6 198718 20230616083838
+27.115.124.113 0 11 39720 
+209.145.61.249 1 1 22779 20230608054934
+89.247.164.110 3 34 2635470 20230607171824
+23.97.205.210 1 1 544 20230619061054
+116.179.33.139 0 1 961 
+209.141.44.114 1 1 5548 20230614073744
+66.249.66.33 0 1 22107 
+209.141.51.222 0 1 119723 
+60.188.9.215 1 3 110196 20230617132155
+27.115.124.3 1 5 13207 20230602160135
+131.153.240.2 7 7 1879276 20230611212806
+60.188.11.11 1 2 107184 20230613061725
+76.66.161.86 1 1 15171 20230617004228
+220.196.160.151 1 1 5970 20230618171508
+34.216.78.152 1 1 5969 20230609020912
+23.229.62.134 1 1 4779 20230603115030
+185.181.60.12 1 1 5968 20230618200759
+196.240.254.128 2 2 9561 20230609030714
+34.215.121.188 1 1 5970 20230610020138
+34.142.45.186 0 1 22107 
+193.56.113.43 2 2 30708 20230626104921
+35.86.249.116 1 1 5966 20230627001557
+154.202.97.7 1 1 4782 20230612181446
+185.215.180.76 1 1 5970 20230604133007
+104.151.91.181 3 33 2633324 20230611175545
+69.167.12.22 1 1 494 20230607170019
+60.188.9.213 0 2 6585 
+157.245.64.106 1 1 23030 20230620132746
+62.141.44.236 1 1 5970 20230628190605
+66.249.66.34 0 1 22107 
+182.43.148.98 1 1 5970 20230604064119
+116.179.33.138 0 1 144 
+60.188.11.7 0 1 1827 
+88.150.220.8 7 36 2680800 20230617041340
+42.236.10.110 0 4 7493 
+205.185.124.4 1 1 5968 20230606001014
+154.28.229.243 1 1 5970 20230609015920
+107.150.70.102 1 1 4784 20230630125038
+205.185.121.69 2 2 10436 20230614073742
+84.17.59.85 1 1 21973 20230625124345
+173.252.127.117 1 2 66539 20230622024552
+27.115.124.53 0 5 65882 
+220.181.51.92 1 1 5545 20230610184151
+185.181.60.189 2 2 11939 20230609124802
+136.143.176.64 1 1 5974 20230608085320
+120.92.72.199 1 1 6086 20230622140448
+106.55.200.45 0 4 654049 
+35.89.77.218 1 1 5969 20230617233418
+27.115.124.48 2 11 183643 20230603073211
+185.191.236.155 1 1 5969 20230613030217
+116.179.33.84 0 1 184 
+208.100.18.76 1 1 4779 20230628022624
+101.67.29.213 0 2 4283 
+107.150.70.168 1 1 4780 20230623171401
+27.115.124.40 0 12 116255 
+44.228.64.221 0 1 14512 
+138.199.36.206 3 3 48294 20230626095421
+194.32.122.10 3 3 53878 20230606022825
+93.158.91.230 1 1 5968 20230618000511
+93.124.34.183 8 8 38501 20230618080507
+34.223.22.109 0 1 14512 
+173.252.127.17 0 5 43085 
+46.138.89.248 1 1 15171 20230612221130
+209.141.48.154 1 1 5969 20230611150722
+176.42.29.220 3 34 2635472 20230626161454
+36.40.72.66 1 1 5974 20230622103653
+195.93.252.141 1 1 22779 20230627061504
+66.249.66.35 0 1 22107 
+80.70.111.58 1 1 62680 20230620235901
+168.151.91.217 1 1 7336 20230619105012
+43.139.205.224 1 1 429 20230629151828
+196.245.217.207 1 1 4783 20230604125803
+116.179.33.77 0 2 3862 
+114.132.203.10 0 2 198833 
+34.213.163.16 1 1 5972 20230605080655
+124.222.64.209 1 1 5545 20230609003236
+220.196.160.65 1 1 5970 20230615061338
+106.53.116.8 1 1 5546 20230609212521
+124.220.171.34 4 4 23454 20230618104749
+173.252.127.20 0 1 5159 
+23.229.104.2 4 4 17508 20230617015921
+101.67.50.7 0 1 550 
+165.231.159.213 1 1 4783 20230627022805
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20230601 5 5 292350 5
+20230602 24 119 4349668 16
+20230603 21 133 8701323 11
+20230604 19 23 1266687 14
+20230605 15 46 2963905 11
+20230606 10 38 3008532 7
+20230607 30 279 10268835 13
+20230608 17 51 3086708 15
+20230609 16 20 578149 15
+20230610 15 89 5721747 10
+20230611 25 180 14025560 13
+20230612 26 65 5258040 13
+20230613 23 41 533183 12
+20230614 37 187 6751992 19
+20230615 39 202 15769514 21
+20230616 25 148 6578182 14
+20230617 45 123 5774615 33
+20230618 64 64 438076 48
+20230619 145 342 15056750 63
+20230620 80 179 2534209 55
+20230621 70 216 10798007 45
+20230622 58 87 3119388 45
+20230623 31 33 299183 25
+20230624 20 82 5414343 16
+20230625 32 67 2962867 24
+20230626 50 171 8740831 32
+20230627 19 28 2492262 17
+20230628 25 110 1230436 13
+20230629 24 57 3004871 14
+20230630 28 115 5864176 14
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 2
+15mn-30mn 18
+30mn-1h 22
+2mn-5mn 10
+5mn-15mn 7
+30s-2mn 18
+0s-30s 576
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 43
+/ 319 2725440 274 212
+/user/login 287 1416028 241 241
+/content/kontakty 94 857343 50 54
+/sites/all/themes/venture_theme/font/MuseoSansCyrl-500.otf 54 5757480 8 17
+/sites/all/themes/venture_theme/font/fontawesome-webfont.woff 49 2177168 6 29
+/content/about 25 166633 5 10
+/content/awards 23 438700 1 3
+/program-guide 23 4313678 10 11
+/archive 16 337361 7 11
+/content/contacts 15 110309 4 9
+// 1 5548 1 1
+/tickets 2 20958 0 0
+/content/nagorody 7 71303 4 4
+/tags/kff-2017 3 83599 0 1
+/taxonomy/term/62/feed 1 23557 0 0
+/content/stroky-ta-umovy 10 130237 6 6
+/node/11/done 12 124128 3 8
+/node/3 1 17011 0 0
+/taxonomy/term/61/feed 2 35886 0 0
+/node/9 1 17010 0 0
+/node/19 1 14898 0 0
+/tags/event 3 100241 0 0
+/rss.xml 11 2953148 11 11
+/content/rules 13 122813 3 5
+/node/8 1 13808 0 0
+/node/11 1 15153 0 0
+/taxonomy/term/61 1 27845 0 0
+/node/10 2 65186 0 0
+/node/1 1 15841 0 0
+/content/locations 14 110225 0 2
+/content/kontakty/ 4 61429 2 2
+/node/4 1 22108 0 0
+/taxonomy/term/62 1 33367 0 0
+/content/kff-2017-2019 3 73829 1 0
+/node/2 2 27072 0 1
+/content/rozmishchennya 9 73679 6 6
+/content/kkf-2016 3 44495 0 0
+/node/118 1 24625 0 0
+/node/12 2 29166 0 0
+/archive/ 1 62680 1 1
+/content/pro-nas 12 96071 5 7
+/xmlrpc.php 5 1977 4 1
+/node/7 1 14758 0 0
+END_SIDER
