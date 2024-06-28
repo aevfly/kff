@@ -27,8 +27,13 @@ jobs:
         run: sudo apt-get install -y composer
 
       - name: Create temporary composer.json
+        run: echo '{}' > composer.json
+
+      - name: Configure Composer to allow plugins
+        run: composer config --no-plugins allow-plugins.dealerdirect/phpcodesniffer-composer-installer true
+
+      - name: Install PHPCompatibility standard
         run: |
-          echo '{}' > composer.json
           composer require --dev dealerdirect/phpcodesniffer-composer-installer
           composer require --dev phpcompatibility/php-compatibility
 
