@@ -1,0 +1,229 @@
+<?php
+/**
+ * Implements hook_menu().
+ */
+function festival_menu() {
+  $menu = array();
+  
+  
+  $menu['admin/sendemail'] = array(
+    'title'           => 'Send Email\'s ',
+    'page callback' => 'drupal_get_form',    
+    'page arguments' => array('form_festival_email'),
+    'access arguments' => array('access administration pages'),    
+  );  
+  
+  
+  
+  return $menu;
+}  
+
+
+
+
+        
+
+function form_festival_email($form, &$form_state){
+  
+//  drupal_add_js(drupal_get_path('module', 'festival') . '/festival.js');
+           
+  //$users = user_load_multiple(array(), array('status' => '1'));// user_role_load_by_name('anonymous user'); //user_role_load(1);
+  
+//    module_load_include('inc', 'festival');
+//    festival_sendemailinvitation();
+ //include '/sites/all/modules/urllogin/urllogin_security.inc';
+  
+ 
+ $films = node_load_multiple(array(), array('type' => 'film'));
+ dsm($films); 
+ 
+  $list = array();
+  foreach ($films as $key => $film) { 
+    if(!empty($film->field_dev)){
+      $dev = unserialize($film->field_dev['und']['0']['value']);
+      
+      //0. проверка на уже отправленный email 
+      if($dev['sendemail'] != '1'){
+        $list[$key] =   array($film->nid, $film->field_email['und']['0']['value'], $film->field_name['und']['0']['value'] );                                          
+      }
+      
+    }else{
+      $list[$key] =   array($film->nid, $film->field_email['und']['0']['value'], $film->field_name['und']['0']['value'] );                                          
+    }
+  }
+                                   
+    // if user don't have any film
+    if(empty($list)){
+        
+          $form['form'] = array(
+            '#type'   => 'item',        
+            '#title'  => t('Missing users'),        
+            '#markup' => '<div>We don\'t have any users. </div>',
+          
+            );
+            
+    }else{ 
+                    /*
+        $form['count_user'] =  array(
+            '#type'   => 'item',        
+            '#markup' => '<div>all users '.$count_user.'</div>',         
+            );
+            
+        $form['count_paased'] =  array(
+            '#type'   => 'item',        
+            '#markup' => '<div>paased '.$count_paased.'</div>',         
+            );    */        
+            
+        $form['#mylist_films'] = $list;
+        
+        
+        $header = array(t('id film'), t('uid user'),t('name user'));
+        
+        $form['checkboxes'] = array(
+          '#type' => 'tableselect',
+          '#header' => $header,
+          '#options' => $list,
+          '#empty' => 'No users were found.'
+        );
+               /*
+        $form['sendemail'] = array(
+          '#type' =>'checkbox',         
+          '#title' => t('Send email.'),
+        
+        );   */
+
+        $form['textemail'] = array(
+          '#title' => t('<p>Send this email</p>'),          
+          '#type' => 'text_format',             
+          '#description' => t('Send this email selecetd item(s)'),          
+          '#default_value' => '',
+          );
+                   
+        $form['actions']['submit'] = array(
+          '#type' => 'submit',
+          '#value' => t('Submit'),
+          '#submit' => array('festival_sendmail'),    
+        );
+        
+        
+    }
+    
+    return $form;
+
+}
+
+
+
+function festival_sendmail($form, &$form_state){
+
+  $full_opt = $form['checkboxes']['#options'];
+  $chosen_opt = $form['checkboxes']['#value'];
+  //$sendemail = $form['sendemail']['#value'];
+  //$textemail = $form['textemail']['value']['#value']; 
+  $adm_message = ''; 
+  
+  module_load_include('inc', 'urllogin', 'urllogin_security');
+    
+
+  foreach ($chosen_opt as $option) {
+    $nid = $full_opt[$option][0];
+    $email = $full_opt[$option][1];
+    $name = $full_opt[$option][2];
+    
+    //1. проверяем есть ли пользователь с таким email
+    $user = user_load_by_mail($email);            
+    if(empty($user)){
+      $user = _add_new_user($email,$name);
+    }
+      
+    // link to login 
+    $codekey = variable_get('urllogin_codekey', 0);
+    $linklogin = urllogin_encode($user->uid, $codekey, urllogin_passphrase());
+    
+    //1.1 проверка на уже отправленные этим же фильмейкером
+    
+    //1.2 присвоение материалу - пользователя
+    $node = node_load($nid);
+    $node->uid = $user->uid;
+    $filmname = $node->title;    
+      
+    //2. отправляем письмо          
+    $link = 'http://eurocinemafilmfestival.com/l/'.$linklogin.'/node/' . $full_opt[$option][0].'/edit';      
+    $adm_message = 'Letter(s) sent';
+    
+    _send_email_statuspage($email, _gettextemail($user->name, $link, $filmname),$filmname);        
+    
+    //3. обновляем статус
+    $node->field_dev['und']['0']['value'] = serialize(array('sendemail' => '1' ));
+    node_save($node);  
+    }
+  
+  if(!empty($adm_message))
+    drupal_set_message($adm_message);
+
+}
+
+function _add_new_user($email,$name){
+
+  $new_user = array(
+    'name' => $name,
+    'pass' => user_password($length = 8), // note: do not md5 the password
+    'mail' => $email,
+    'status' => 1,
+    'init' => $email,
+    'roles' => array(
+      DRUPAL_AUTHENTICATED_RID => 'authenticated user',
+      4 => 'filmmaker',
+    ),
+  );
+  
+  // The first parameter is sent blank so a new user is created.
+  $user = user_save('', $new_user);
+  return $user;
+}
+
+function _gettextemail($name, $link,$filmname){
+//According rules of the festival, we ask you confirm the information on your film "film name".
+//Please go to link. Check information , make correct selection and click Save.
+//Please do not reply to this email. Follow the link and make your choice.
+/*
+<div>Hello '.$name.'</div><br />
+<div>According rules of the festival, we ask you confirm the information on your film <a href="'.$link.'">'.$filmname.'</a></div><br />
+<div>Please go to link. Check information , make correct selection and click Save.</div><br /><br />
+<div>Note all information is closed for anyone.</div><br />
+<div>Follow the link and make your choice.</div><br /><br />
+Cheers!<br />Eurocinema Film Festival Team
+*/
+return 'Hello '.$name.'
+EuroCinemaFilmFestival recieved your submission. We kindly ask you confirm and update all the the information of your film <a href="'.$link.'">'.$filmname.'</a>
+<div>Please follow this link. Update or correct the information, then click Save.</div><br /><br />
+<div>Please note that all information provided will be protected and will not be shared without consent.</div><br />
+
+Cheers!<br />Eurocinema Film Festival Team';
+}
+
+
+function _send_email_statuspage($usermail, $textemail,$filmname){
+
+  $mail = array(
+    'subject' => 'Eurocinema Film Festival Submission '.$filmname,
+    'message' => $textemail,
+  );                                              
+  dsm($usermail);
+  drupal_mail('system', 'EurocinemaFilmFestival', $usermail, language_default(), array('context' => $mail));       //invitation@worldfilmpresentation.com
+  
+}
+
+function festival_cron() {
+
+    //module_load_include('inc', 'festival');
+    //festival_sendemailinvitation();
+    
+}
+
+
+
+
+
+
+
