@@ -38,4 +38,4 @@ jobs:
           composer require --dev phpcompatibility/php-compatibility
 
       - name: Run PHPCompatibility check
-        run: vendor/bin/phpcs --standard=PHPCompatibility --runtime-set testVersion 8.2 . --ignore=vendor/*,tests/*
+        run: vendor/bin/phpcs --standard=PHPCompatibility --runtime-set testVersion 8.2 . --ignore=vendor/*,tests/*,*.js,*.css
